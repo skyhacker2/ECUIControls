@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'ECUIControls_Example', :exclusive => true do
+  pod "ECUIControls", :path => "../"
+end
+
+target 'ECUIControls_Tests', :exclusive => true do
+  pod "ECUIControls", :path => "../"
+
+  
+end
