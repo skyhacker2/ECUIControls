@@ -1,0 +1,6 @@
+framework module ECUIControls {
+  umbrella header "ECUIControls-umbrella.h"
+
+  export *
+  module * { export * }
+}

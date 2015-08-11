@@ -7,6 +7,8 @@
 //
 
 #import "ECViewController.h"
+#import <ECUIControls/ECUIControls.h>
+#import "ECExtension.h"
 
 @interface ECViewController ()
 
@@ -17,7 +19,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+    ECVoiceProgressbar *progressbar = [ECVoiceProgressbar progressBarWithBackgroundName:@"progressBg" normalBlockName:@"normalBlock" highlightBlockName:@"highlightBlock"];
+    [self.view addSubview:progressbar];
+    progressbar.max = 10;
+    progressbar.value = 10;
+    progressbar.translatesAutoresizingMaskIntoConstraints = NO;
+    [progressbar centerInSuperView];
 }
 
 - (void)didReceiveMemoryWarning

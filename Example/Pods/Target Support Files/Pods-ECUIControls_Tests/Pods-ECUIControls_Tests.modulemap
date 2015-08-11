@@ -1,0 +1,6 @@
+framework module Pods_ECUIControls_Tests {
+  umbrella header "Pods-ECUIControls_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

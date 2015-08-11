@@ -1,0 +1,1072 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0076630486ACEFE79DC40C646EA3D958 /* Pods-ECUIControls_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC29474C4B45DA34B7ECBA34D47FEEAC /* Pods-ECUIControls_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D9827EB6B56F7AB72891424FB86D42B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A7FA8BEAB6BEBCF0C5BD49A156F8C13 /* Foundation.framework */; };
+		3215A520330758D9D379141B4D93EFA5 /* UIView+Extend.h in Headers */ = {isa = PBXBuildFile; fileRef = C2C4E712EE23258E92165C70708ED770 /* UIView+Extend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		367CB69F86B22D887111E2CC44C3F4A1 /* Pods-ECUIControls_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23CE8B12EFF7DEF986E59C7A9F744291 /* Pods-ECUIControls_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37CBB5230DF790F76A6954350EF624D4 /* ECExtension.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DDCB20666045475F5702AA930502CACF /* ECExtension.bundle */; };
+		439CCDF2D135537B3F545726C4722E3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A7FA8BEAB6BEBCF0C5BD49A156F8C13 /* Foundation.framework */; };
+		5747E8822D6548314FF0442AA038A1D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A7FA8BEAB6BEBCF0C5BD49A156F8C13 /* Foundation.framework */; };
+		602A10C9209ED7C71C188DC9B5A77A79 /* ECUIControls-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34DCDBEEE78EFCF69F0223C9D8E81DB6 /* ECUIControls-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		730B213298D939AC4338F013311B5D89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A7FA8BEAB6BEBCF0C5BD49A156F8C13 /* Foundation.framework */; };
+		7376D45140C4E4ACA12C14B7048C76E6 /* CBUUID+Extend.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BE5E9B2DA50DD0F566465DCF4748D7F /* CBUUID+Extend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9026A72F8BD19E9CA9612C4D9BC45834 /* ECExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 0344C5AFF2C5D372E23854BB427BB27B /* ECExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		905477B7F18EF2B2420420378482391B /* ECVoiceProgressbar.h in Headers */ = {isa = PBXBuildFile; fileRef = F46D0C1068F8D02E24B989B52B3EE3E7 /* ECVoiceProgressbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		990EA4CB3A43D467F228847D4B739406 /* ECVoiceProgressbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AC7144FAD80478B15EBFFE4F3731FB /* ECVoiceProgressbar.m */; };
+		9C9837C69A6D70043249C6C77F799607 /* ECUIControls.h in Headers */ = {isa = PBXBuildFile; fileRef = A6CC33615205FA4945CEC7C3AC7F1D8A /* ECUIControls.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E142771985DF28533448EA443A972DC /* ECUIControls-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB81410EBA15EC9D8C561C5C314911E /* ECUIControls-dummy.m */; };
+		A847836E49B37E1309F8E112B558A993 /* CBUUID+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2CB738DEEA702A088CB1A0E1259BC8 /* CBUUID+Extend.m */; };
+		AB963F114F464053494E9AC8EC5A9435 /* Pods-ECUIControls_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FFF67D52178071947AF1DFBE3E30DB /* Pods-ECUIControls_Tests-dummy.m */; };
+		C8D016A304A54DBCA64C00F019310C9A /* UIView+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = E09A4D47850F795C87F912E8F71B88DE /* UIView+Extend.m */; };
+		CD8E5164B458AB27942C46E21BC8354A /* ECUIControls.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E702838BF346705272D45528F9769A07 /* ECUIControls.bundle */; };
+		CF754D10FD657AE976E662864C8DC077 /* UIColor+Extend.h in Headers */ = {isa = PBXBuildFile; fileRef = 93E6D078A4915ACBB44D569AD6A708C2 /* UIColor+Extend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D04D104A5C2F326AD3A365E4A924D5BE /* ECExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C971D562699FF0DA2272B6FB6020C1FD /* ECExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D88B0184794946824A671858451A0808 /* ECExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D7C4F22599033F41596AF4407EF363 /* ECExtension-dummy.m */; };
+		DD65DBC99141EF85BB9F1279CF1C8CA4 /* UIColor+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = B54EB2C9F893E5C800662B7A061A1996 /* UIColor+Extend.m */; };
+		F03E150D0D9C6A2BB3038814C22D2311 /* Pods-ECUIControls_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A76960FD77464A97F777AD723C9FB948 /* Pods-ECUIControls_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0AF3DB93FE6E140AE02C5569E4D5DCE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D593D9212D8F593BE091AA96F72B058C;
+			remoteInfo = ECExtension;
+		};
+		858D26F80DCFCCD795ACDE613E6D1AB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9B74C6A7BA6B63EFDD00225236DF577;
+			remoteInfo = "ECExtension-ECExtension";
+		};
+		9DD92CD8D2309A7DF04DDA2D2D9C4DF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2456D050528C19C0C201229FB2EA708B;
+			remoteInfo = ECUIControls;
+		};
+		BEC40792D16D9098373119F86BFAB5ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2456D050528C19C0C201229FB2EA708B;
+			remoteInfo = ECUIControls;
+		};
+		DF5E8E49CABBB6CDEC9EF0D7A03E842B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEB07C5C121DE358C0B3837A8261CA0A;
+			remoteInfo = "ECUIControls-ECUIControls";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		029E1FDAB33CC463305132B052B4AF6F /* Pods-ECUIControls_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ECUIControls_Example.modulemap"; sourceTree = "<group>"; };
+		02D5673167B3B95BAD7BEF13703E0FAB /* Pods-ECUIControls_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ECUIControls_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0344C5AFF2C5D372E23854BB427BB27B /* ECExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ECExtension.h; path = Pod/Classes/ECExtension.h; sourceTree = "<group>"; };
+		06084D3076CCCBC2FD23EC59D4E9AAA1 /* ECExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ECExtension.modulemap; sourceTree = "<group>"; };
+		07D7934603B51900D60917064727565A /* ECUIControls.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ECUIControls.xcconfig; sourceTree = "<group>"; };
+		1844A17AD36540D3D1DEFD5027EB6E00 /* Pods_ECUIControls_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ECUIControls_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BE5E9B2DA50DD0F566465DCF4748D7F /* CBUUID+Extend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CBUUID+Extend.h"; path = "Pod/Classes/CBUUID+Extend.h"; sourceTree = "<group>"; };
+		23CE8B12EFF7DEF986E59C7A9F744291 /* Pods-ECUIControls_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ECUIControls_Example-umbrella.h"; sourceTree = "<group>"; };
+		34DCDBEEE78EFCF69F0223C9D8E81DB6 /* ECUIControls-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ECUIControls-umbrella.h"; sourceTree = "<group>"; };
+		3A7FA8BEAB6BEBCF0C5BD49A156F8C13 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3C203EED8FB5B28A6B0D1595CFCCD680 /* Pods-ECUIControls_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ECUIControls_Example-frameworks.sh"; sourceTree = "<group>"; };
+		41379304335F7E95BDE2AD83C3F8FA48 /* ECUIControls-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ECUIControls-Private.xcconfig"; sourceTree = "<group>"; };
+		434262FC0F7913911CBC1B6E9A6C8E39 /* Pods-ECUIControls_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ECUIControls_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		440BDFDD4204BB941E259E994B348128 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5695068937499277C5EC101104631FBC /* ECUIControls-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ECUIControls-prefix.pch"; sourceTree = "<group>"; };
+		588A2B1A9BF9B2666B88C74E457CA7EC /* Pods-ECUIControls_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ECUIControls_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6E081C4E9897C276DFAFAC3A50DE2F7E /* Pods-ECUIControls_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ECUIControls_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		70D7C4F22599033F41596AF4407EF363 /* ECExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ECExtension-dummy.m"; sourceTree = "<group>"; };
+		722A3083520960B2F1C7AD41F39F2C27 /* Pods-ECUIControls_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ECUIControls_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		75AC7144FAD80478B15EBFFE4F3731FB /* ECVoiceProgressbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ECVoiceProgressbar.m; sourceTree = "<group>"; };
+		807F6FAA687C02A9A5FBE668A0EF4FD8 /* Pods-ECUIControls_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ECUIControls_Example-resources.sh"; sourceTree = "<group>"; };
+		8834B82C689FA4ECD9056F40611FDD94 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C85DEA4987991BEC22E5B9AD9721BE6 /* Pods-ECUIControls_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ECUIControls_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8CFC5904EA1B867D73D2D6D08618A0BC /* Pods-ECUIControls_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ECUIControls_Tests.modulemap"; sourceTree = "<group>"; };
+		93E6D078A4915ACBB44D569AD6A708C2 /* UIColor+Extend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Extend.h"; path = "Pod/Classes/UIColor+Extend.h"; sourceTree = "<group>"; };
+		98FC398CE81AAB822ABB84EFC63EFF07 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AB81410EBA15EC9D8C561C5C314911E /* ECUIControls-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ECUIControls-dummy.m"; sourceTree = "<group>"; };
+		A6CC33615205FA4945CEC7C3AC7F1D8A /* ECUIControls.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ECUIControls.h; sourceTree = "<group>"; };
+		A76960FD77464A97F777AD723C9FB948 /* Pods-ECUIControls_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ECUIControls_Example-dummy.m"; sourceTree = "<group>"; };
+		AA2E2C8D476C9D1C266615A470990FE0 /* Pods-ECUIControls_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ECUIControls_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B4C80399F829BB3CABD6690D58209371 /* ECExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ECExtension.xcconfig; sourceTree = "<group>"; };
+		B54EB2C9F893E5C800662B7A061A1996 /* UIColor+Extend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Extend.m"; path = "Pod/Classes/UIColor+Extend.m"; sourceTree = "<group>"; };
+		BA2CB738DEEA702A088CB1A0E1259BC8 /* CBUUID+Extend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CBUUID+Extend.m"; path = "Pod/Classes/CBUUID+Extend.m"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC29474C4B45DA34B7ECBA34D47FEEAC /* Pods-ECUIControls_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ECUIControls_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C2C4E712EE23258E92165C70708ED770 /* UIView+Extend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Extend.h"; path = "Pod/Classes/UIView+Extend.h"; sourceTree = "<group>"; };
+		C65A294BEA44DEE37F0A1D09F73AA69F /* Pods_ECUIControls_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ECUIControls_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C679EE293D3EE8F6DFF22B68476EEC5B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C69BCEBA57AEC42AB31F55A756E93550 /* Pods-ECUIControls_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ECUIControls_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C971D562699FF0DA2272B6FB6020C1FD /* ECExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ECExtension-umbrella.h"; sourceTree = "<group>"; };
+		CBB52F5ED96B6B6408A13336525ACE0A /* ECExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ECExtension-prefix.pch"; sourceTree = "<group>"; };
+		CBE74241FE3630718409FCED8DB1F937 /* ECExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ECExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5A65D04157E876F162A5EEC764C3EE5 /* ECUIControls.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ECUIControls.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D68C689B1571B1015E04B6D5DD0C30E9 /* ECUIControls.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ECUIControls.modulemap; sourceTree = "<group>"; };
+		D9FFF67D52178071947AF1DFBE3E30DB /* Pods-ECUIControls_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ECUIControls_Tests-dummy.m"; sourceTree = "<group>"; };
+		DDCB20666045475F5702AA930502CACF /* ECExtension.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECExtension.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE43D04B75213B4026CDD0859E5AF66B /* Pods-ECUIControls_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ECUIControls_Tests-resources.sh"; sourceTree = "<group>"; };
+		E09A4D47850F795C87F912E8F71B88DE /* UIView+Extend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Extend.m"; path = "Pod/Classes/UIView+Extend.m"; sourceTree = "<group>"; };
+		E2B8F7108FBCB22B5638BA964DFBF6BF /* Pods-ECUIControls_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ECUIControls_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E702838BF346705272D45528F9769A07 /* ECUIControls.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECUIControls.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F46D0C1068F8D02E24B989B52B3EE3E7 /* ECVoiceProgressbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ECVoiceProgressbar.h; sourceTree = "<group>"; };
+		FCC2B9BDCDCABEB221D2A440DC8907B8 /* ECExtension-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ECExtension-Private.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2ED92042B9918B413B5FA33F9C8FEC09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D9827EB6B56F7AB72891424FB86D42B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5565F85AD5FC45346BAFD6B11EE5FF7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730B213298D939AC4338F013311B5D89 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70A0B456A46C4F838B231E226D5336F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CC0E4986D4C5A550393CCF76DBFCEC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5747E8822D6548314FF0442AA038A1D0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8A06500CC194077E2ACE8C47444E5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45DB2A605D19DCF883245895AF1BD74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				439CCDF2D135537B3F545726C4722E3E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3171B76445901CFDF40F4DF09E810FB2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D25D81A3084C6F39A3B4966721331CE /* ECUIControls */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3832875BF596B27AA1564248DC859685 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DED2E1A114A2BB8BD3A01B92ABC7639C /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		45525BB9F1BC837676EEEAABA6E922A9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D68C689B1571B1015E04B6D5DD0C30E9 /* ECUIControls.modulemap */,
+				07D7934603B51900D60917064727565A /* ECUIControls.xcconfig */,
+				41379304335F7E95BDE2AD83C3F8FA48 /* ECUIControls-Private.xcconfig */,
+				9AB81410EBA15EC9D8C561C5C314911E /* ECUIControls-dummy.m */,
+				5695068937499277C5EC101104631FBC /* ECUIControls-prefix.pch */,
+				34DCDBEEE78EFCF69F0223C9D8E81DB6 /* ECUIControls-umbrella.h */,
+				8834B82C689FA4ECD9056F40611FDD94 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ECUIControls";
+			sourceTree = "<group>";
+		};
+		4D25D81A3084C6F39A3B4966721331CE /* ECUIControls */ = {
+			isa = PBXGroup;
+			children = (
+				3832875BF596B27AA1564248DC859685 /* Pod */,
+				45525BB9F1BC837676EEEAABA6E922A9 /* Support Files */,
+			);
+			name = ECUIControls;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3A7FA8BEAB6BEBCF0C5BD49A156F8C13 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7283E98E05774A140A06D62374AE05B2 /* Pods-ECUIControls_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C679EE293D3EE8F6DFF22B68476EEC5B /* Info.plist */,
+				8CFC5904EA1B867D73D2D6D08618A0BC /* Pods-ECUIControls_Tests.modulemap */,
+				C69BCEBA57AEC42AB31F55A756E93550 /* Pods-ECUIControls_Tests-acknowledgements.markdown */,
+				8C85DEA4987991BEC22E5B9AD9721BE6 /* Pods-ECUIControls_Tests-acknowledgements.plist */,
+				D9FFF67D52178071947AF1DFBE3E30DB /* Pods-ECUIControls_Tests-dummy.m */,
+				AA2E2C8D476C9D1C266615A470990FE0 /* Pods-ECUIControls_Tests-frameworks.sh */,
+				DE43D04B75213B4026CDD0859E5AF66B /* Pods-ECUIControls_Tests-resources.sh */,
+				BC29474C4B45DA34B7ECBA34D47FEEAC /* Pods-ECUIControls_Tests-umbrella.h */,
+				E2B8F7108FBCB22B5638BA964DFBF6BF /* Pods-ECUIControls_Tests.debug.xcconfig */,
+				434262FC0F7913911CBC1B6E9A6C8E39 /* Pods-ECUIControls_Tests.release.xcconfig */,
+			);
+			name = "Pods-ECUIControls_Tests";
+			path = "Target Support Files/Pods-ECUIControls_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				3171B76445901CFDF40F4DF09E810FB2 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A1EEB799B45B3571EE0214DFE2C56818 /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				8C6B6CE3CEFBA055354F1FDF403E2265 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8C6B6CE3CEFBA055354F1FDF403E2265 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E934C7836607C52F1F65C6FD4BC34E1D /* Pods-ECUIControls_Example */,
+				7283E98E05774A140A06D62374AE05B2 /* Pods-ECUIControls_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A1EEB799B45B3571EE0214DFE2C56818 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3EF90851B2D2DC1961981D618696D5F /* ECExtension */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A3EF90851B2D2DC1961981D618696D5F /* ECExtension */ = {
+			isa = PBXGroup;
+			children = (
+				1BE5E9B2DA50DD0F566465DCF4748D7F /* CBUUID+Extend.h */,
+				BA2CB738DEEA702A088CB1A0E1259BC8 /* CBUUID+Extend.m */,
+				0344C5AFF2C5D372E23854BB427BB27B /* ECExtension.h */,
+				93E6D078A4915ACBB44D569AD6A708C2 /* UIColor+Extend.h */,
+				B54EB2C9F893E5C800662B7A061A1996 /* UIColor+Extend.m */,
+				C2C4E712EE23258E92165C70708ED770 /* UIView+Extend.h */,
+				E09A4D47850F795C87F912E8F71B88DE /* UIView+Extend.m */,
+				E74A027AEC20F6148F81B0C5543F1F86 /* Support Files */,
+			);
+			path = ECExtension;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDCB20666045475F5702AA930502CACF /* ECExtension.bundle */,
+				CBE74241FE3630718409FCED8DB1F937 /* ECExtension.framework */,
+				E702838BF346705272D45528F9769A07 /* ECUIControls.bundle */,
+				D5A65D04157E876F162A5EEC764C3EE5 /* ECUIControls.framework */,
+				C65A294BEA44DEE37F0A1D09F73AA69F /* Pods_ECUIControls_Example.framework */,
+				1844A17AD36540D3D1DEFD5027EB6E00 /* Pods_ECUIControls_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DED2E1A114A2BB8BD3A01B92ABC7639C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A6CC33615205FA4945CEC7C3AC7F1D8A /* ECUIControls.h */,
+				F46D0C1068F8D02E24B989B52B3EE3E7 /* ECVoiceProgressbar.h */,
+				75AC7144FAD80478B15EBFFE4F3731FB /* ECVoiceProgressbar.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E74A027AEC20F6148F81B0C5543F1F86 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				06084D3076CCCBC2FD23EC59D4E9AAA1 /* ECExtension.modulemap */,
+				B4C80399F829BB3CABD6690D58209371 /* ECExtension.xcconfig */,
+				FCC2B9BDCDCABEB221D2A440DC8907B8 /* ECExtension-Private.xcconfig */,
+				70D7C4F22599033F41596AF4407EF363 /* ECExtension-dummy.m */,
+				CBB52F5ED96B6B6408A13336525ACE0A /* ECExtension-prefix.pch */,
+				C971D562699FF0DA2272B6FB6020C1FD /* ECExtension-umbrella.h */,
+				98FC398CE81AAB822ABB84EFC63EFF07 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ECExtension";
+			sourceTree = "<group>";
+		};
+		E934C7836607C52F1F65C6FD4BC34E1D /* Pods-ECUIControls_Example */ = {
+			isa = PBXGroup;
+			children = (
+				440BDFDD4204BB941E259E994B348128 /* Info.plist */,
+				029E1FDAB33CC463305132B052B4AF6F /* Pods-ECUIControls_Example.modulemap */,
+				588A2B1A9BF9B2666B88C74E457CA7EC /* Pods-ECUIControls_Example-acknowledgements.markdown */,
+				6E081C4E9897C276DFAFAC3A50DE2F7E /* Pods-ECUIControls_Example-acknowledgements.plist */,
+				A76960FD77464A97F777AD723C9FB948 /* Pods-ECUIControls_Example-dummy.m */,
+				3C203EED8FB5B28A6B0D1595CFCCD680 /* Pods-ECUIControls_Example-frameworks.sh */,
+				807F6FAA687C02A9A5FBE668A0EF4FD8 /* Pods-ECUIControls_Example-resources.sh */,
+				23CE8B12EFF7DEF986E59C7A9F744291 /* Pods-ECUIControls_Example-umbrella.h */,
+				722A3083520960B2F1C7AD41F39F2C27 /* Pods-ECUIControls_Example.debug.xcconfig */,
+				02D5673167B3B95BAD7BEF13703E0FAB /* Pods-ECUIControls_Example.release.xcconfig */,
+			);
+			name = "Pods-ECUIControls_Example";
+			path = "Target Support Files/Pods-ECUIControls_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4245D3678D2952CD4A0071327630E462 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				367CB69F86B22D887111E2CC44C3F4A1 /* Pods-ECUIControls_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		519DA55605621B417546C7151ACC90B5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0076630486ACEFE79DC40C646EA3D958 /* Pods-ECUIControls_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9AD86F7811F0039A748C602D6A05C42 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				602A10C9209ED7C71C188DC9B5A77A79 /* ECUIControls-umbrella.h in Headers */,
+				9C9837C69A6D70043249C6C77F799607 /* ECUIControls.h in Headers */,
+				905477B7F18EF2B2420420378482391B /* ECVoiceProgressbar.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCB0CF5404E4681EF5CA2F612CB39E4F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7376D45140C4E4ACA12C14B7048C76E6 /* CBUUID+Extend.h in Headers */,
+				D04D104A5C2F326AD3A365E4A924D5BE /* ECExtension-umbrella.h in Headers */,
+				9026A72F8BD19E9CA9612C4D9BC45834 /* ECExtension.h in Headers */,
+				CF754D10FD657AE976E662864C8DC077 /* UIColor+Extend.h in Headers */,
+				3215A520330758D9D379141B4D93EFA5 /* UIView+Extend.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1684686A87280F996AB77FE6B7AAFBCF /* Pods-ECUIControls_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82FC020F3A8CC65C398FD5922AE9D43F /* Build configuration list for PBXNativeTarget "Pods-ECUIControls_Example" */;
+			buildPhases = (
+				AA0C7905470AF938A2781BC5AF5A849C /* Sources */,
+				F45DB2A605D19DCF883245895AF1BD74 /* Frameworks */,
+				4245D3678D2952CD4A0071327630E462 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				494F73BBFE01E58492287D2899CA2511 /* PBXTargetDependency */,
+				06E082C92370877B6C2BED046C3EFCAF /* PBXTargetDependency */,
+			);
+			name = "Pods-ECUIControls_Example";
+			productName = "Pods-ECUIControls_Example";
+			productReference = C65A294BEA44DEE37F0A1D09F73AA69F /* Pods_ECUIControls_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2456D050528C19C0C201229FB2EA708B /* ECUIControls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1647A15EF8BEC3462C80A290A72C06FA /* Build configuration list for PBXNativeTarget "ECUIControls" */;
+			buildPhases = (
+				00AE390D4D4F4EED26CB76A6694EF241 /* Sources */,
+				2ED92042B9918B413B5FA33F9C8FEC09 /* Frameworks */,
+				BE898E83CFF823394576FE7BB28E9B84 /* Resources */,
+				B9AD86F7811F0039A748C602D6A05C42 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E83D490005C40DE478147EDCC3CF58AA /* PBXTargetDependency */,
+			);
+			name = ECUIControls;
+			productName = ECUIControls;
+			productReference = D5A65D04157E876F162A5EEC764C3EE5 /* ECUIControls.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A61744E64D6ECC7B7806ABE2A7435D38 /* Pods-ECUIControls_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EDFE1369D746F5DEF2114C00F53A0CC /* Build configuration list for PBXNativeTarget "Pods-ECUIControls_Tests" */;
+			buildPhases = (
+				38B86B4F23372B11B92A42C5D838CEF3 /* Sources */,
+				9CC0E4986D4C5A550393CCF76DBFCEC3 /* Frameworks */,
+				519DA55605621B417546C7151ACC90B5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAC384EC741D317A34DA8A1EB2B92753 /* PBXTargetDependency */,
+			);
+			name = "Pods-ECUIControls_Tests";
+			productName = "Pods-ECUIControls_Tests";
+			productReference = 1844A17AD36540D3D1DEFD5027EB6E00 /* Pods_ECUIControls_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B9B74C6A7BA6B63EFDD00225236DF577 /* ECExtension-ECExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14DBEE6CC26DA59225D473EBD1474210 /* Build configuration list for PBXNativeTarget "ECExtension-ECExtension" */;
+			buildPhases = (
+				29C29C429430879A066DBC5C9A9FCB05 /* Sources */,
+				70A0B456A46C4F838B231E226D5336F9 /* Frameworks */,
+				CBE81776B1699513802C57DA482C03A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ECExtension-ECExtension";
+			productName = "ECExtension-ECExtension";
+			productReference = DDCB20666045475F5702AA930502CACF /* ECExtension.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		D593D9212D8F593BE091AA96F72B058C /* ECExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8EB3F237339E5CDA6A3B7DF50518BD7 /* Build configuration list for PBXNativeTarget "ECExtension" */;
+			buildPhases = (
+				8B85744DAB98893505C7A686DD3A40E5 /* Sources */,
+				5565F85AD5FC45346BAFD6B11EE5FF7E /* Frameworks */,
+				F5250357C3FAAACA7D6E45D1C3FCB3C8 /* Resources */,
+				BCB0CF5404E4681EF5CA2F612CB39E4F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2048C4E723D8B1715AE4207EB1562ED0 /* PBXTargetDependency */,
+			);
+			name = ECExtension;
+			productName = ECExtension;
+			productReference = CBE74241FE3630718409FCED8DB1F937 /* ECExtension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FEB07C5C121DE358C0B3837A8261CA0A /* ECUIControls-ECUIControls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 763B092065C17B903866CAA8F1E8B960 /* Build configuration list for PBXNativeTarget "ECUIControls-ECUIControls" */;
+			buildPhases = (
+				7B7D22D69DBC9D20154391021FED8ED2 /* Sources */,
+				DE8A06500CC194077E2ACE8C47444E5C /* Frameworks */,
+				84D7714D59EB2D5A02A85E18DA242178 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ECUIControls-ECUIControls";
+			productName = "ECUIControls-ECUIControls";
+			productReference = E702838BF346705272D45528F9769A07 /* ECUIControls.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D593D9212D8F593BE091AA96F72B058C /* ECExtension */,
+				B9B74C6A7BA6B63EFDD00225236DF577 /* ECExtension-ECExtension */,
+				2456D050528C19C0C201229FB2EA708B /* ECUIControls */,
+				FEB07C5C121DE358C0B3837A8261CA0A /* ECUIControls-ECUIControls */,
+				1684686A87280F996AB77FE6B7AAFBCF /* Pods-ECUIControls_Example */,
+				A61744E64D6ECC7B7806ABE2A7435D38 /* Pods-ECUIControls_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84D7714D59EB2D5A02A85E18DA242178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE898E83CFF823394576FE7BB28E9B84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8E5164B458AB27942C46E21BC8354A /* ECUIControls.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBE81776B1699513802C57DA482C03A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5250357C3FAAACA7D6E45D1C3FCB3C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37CBB5230DF790F76A6954350EF624D4 /* ECExtension.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00AE390D4D4F4EED26CB76A6694EF241 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E142771985DF28533448EA443A972DC /* ECUIControls-dummy.m in Sources */,
+				990EA4CB3A43D467F228847D4B739406 /* ECVoiceProgressbar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29C29C429430879A066DBC5C9A9FCB05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38B86B4F23372B11B92A42C5D838CEF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB963F114F464053494E9AC8EC5A9435 /* Pods-ECUIControls_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B7D22D69DBC9D20154391021FED8ED2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B85744DAB98893505C7A686DD3A40E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A847836E49B37E1309F8E112B558A993 /* CBUUID+Extend.m in Sources */,
+				D88B0184794946824A671858451A0808 /* ECExtension-dummy.m in Sources */,
+				DD65DBC99141EF85BB9F1279CF1C8CA4 /* UIColor+Extend.m in Sources */,
+				C8D016A304A54DBCA64C00F019310C9A /* UIView+Extend.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA0C7905470AF938A2781BC5AF5A849C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F03E150D0D9C6A2BB3038814C22D2311 /* Pods-ECUIControls_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06E082C92370877B6C2BED046C3EFCAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ECUIControls;
+			target = 2456D050528C19C0C201229FB2EA708B /* ECUIControls */;
+			targetProxy = BEC40792D16D9098373119F86BFAB5ED /* PBXContainerItemProxy */;
+		};
+		2048C4E723D8B1715AE4207EB1562ED0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ECExtension-ECExtension";
+			target = B9B74C6A7BA6B63EFDD00225236DF577 /* ECExtension-ECExtension */;
+			targetProxy = 858D26F80DCFCCD795ACDE613E6D1AB6 /* PBXContainerItemProxy */;
+		};
+		494F73BBFE01E58492287D2899CA2511 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ECExtension;
+			target = D593D9212D8F593BE091AA96F72B058C /* ECExtension */;
+			targetProxy = 0AF3DB93FE6E140AE02C5569E4D5DCE3 /* PBXContainerItemProxy */;
+		};
+		E83D490005C40DE478147EDCC3CF58AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ECUIControls-ECUIControls";
+			target = FEB07C5C121DE358C0B3837A8261CA0A /* ECUIControls-ECUIControls */;
+			targetProxy = DF5E8E49CABBB6CDEC9EF0D7A03E842B /* PBXContainerItemProxy */;
+		};
+		FAC384EC741D317A34DA8A1EB2B92753 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ECUIControls;
+			target = 2456D050528C19C0C201229FB2EA708B /* ECUIControls */;
+			targetProxy = 9DD92CD8D2309A7DF04DDA2D2D9C4DF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0289E452E713D1E953FF14866383369E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2B8F7108FBCB22B5638BA964DFBF6BF /* Pods-ECUIControls_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ECUIControls_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ECUIControls_Tests/Pods-ECUIControls_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ECUIControls_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		090AA501DFB7D78DADB54F6FBB93C61E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 434262FC0F7913911CBC1B6E9A6C8E39 /* Pods-ECUIControls_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ECUIControls_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ECUIControls_Tests/Pods-ECUIControls_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ECUIControls_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0B04729F397E20678FEF4DB8E8916E41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCC2B9BDCDCABEB221D2A440DC8907B8 /* ECExtension-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ECExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		49C5A8807B5DE93CCAABF98FE837D59B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCC2B9BDCDCABEB221D2A440DC8907B8 /* ECExtension-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.2;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.2;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ECExtension/ECExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ECExtension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ECExtension/ECExtension.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ECExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4DA79E2DBC240DF463E8036537AAFC54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 722A3083520960B2F1C7AD41F39F2C27 /* Pods-ECUIControls_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ECUIControls_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ECUIControls_Example/Pods-ECUIControls_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ECUIControls_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		57C5D90EBB1173CF65A3FC36CA06343B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41379304335F7E95BDE2AD83C3F8FA48 /* ECUIControls-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ECUIControls/ECUIControls-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ECUIControls/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ECUIControls/ECUIControls.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ECUIControls;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5B4112ACA8E1DA3F65D6366E5CF3A9E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41379304335F7E95BDE2AD83C3F8FA48 /* ECUIControls-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ECUIControls/ECUIControls-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ECUIControls/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ECUIControls/ECUIControls.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ECUIControls;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5B893F250BAAC310325C4C20CE6F9AAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41379304335F7E95BDE2AD83C3F8FA48 /* ECUIControls-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ECUIControls;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		5D09B507E57B0F4FE9B54C44884642A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCC2B9BDCDCABEB221D2A440DC8907B8 /* ECExtension-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ECExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		A2BF6398A207C10E956EAD023ABB2A0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41379304335F7E95BDE2AD83C3F8FA48 /* ECUIControls-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ECUIControls;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		CDE7C05D16270A75C00017F99B4CB0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCC2B9BDCDCABEB221D2A440DC8907B8 /* ECExtension-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.2;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.2;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ECExtension/ECExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ECExtension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ECExtension/ECExtension.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ECExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F1AD3C5A15F8047B3C145A8572FD771C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02D5673167B3B95BAD7BEF13703E0FAB /* Pods-ECUIControls_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ECUIControls_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ECUIControls_Example/Pods-ECUIControls_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ECUIControls_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14DBEE6CC26DA59225D473EBD1474210 /* Build configuration list for PBXNativeTarget "ECExtension-ECExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B04729F397E20678FEF4DB8E8916E41 /* Debug */,
+				5D09B507E57B0F4FE9B54C44884642A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1647A15EF8BEC3462C80A290A72C06FA /* Build configuration list for PBXNativeTarget "ECUIControls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B4112ACA8E1DA3F65D6366E5CF3A9E2 /* Debug */,
+				57C5D90EBB1173CF65A3FC36CA06343B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		763B092065C17B903866CAA8F1E8B960 /* Build configuration list for PBXNativeTarget "ECUIControls-ECUIControls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2BF6398A207C10E956EAD023ABB2A0E /* Debug */,
+				5B893F250BAAC310325C4C20CE6F9AAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82FC020F3A8CC65C398FD5922AE9D43F /* Build configuration list for PBXNativeTarget "Pods-ECUIControls_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DA79E2DBC240DF463E8036537AAFC54 /* Debug */,
+				F1AD3C5A15F8047B3C145A8572FD771C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EDFE1369D746F5DEF2114C00F53A0CC /* Build configuration list for PBXNativeTarget "Pods-ECUIControls_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0289E452E713D1E953FF14866383369E /* Debug */,
+				090AA501DFB7D78DADB54F6FBB93C61E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8EB3F237339E5CDA6A3B7DF50518BD7 /* Build configuration list for PBXNativeTarget "ECExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49C5A8807B5DE93CCAABF98FE837D59B /* Debug */,
+				CDE7C05D16270A75C00017F99B4CB0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
