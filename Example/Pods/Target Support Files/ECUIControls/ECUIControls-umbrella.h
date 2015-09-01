@@ -1,5 +1,6 @@
 #import <UIKit/UIKit.h>
 
+#import "ECDeslider.h"
 #import "ECUIControls.h"
 #import "ECVoiceProgressbar.h"
 

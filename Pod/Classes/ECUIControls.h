@@ -10,5 +10,6 @@
 #define Pods_ECUIControls_h
 
 #import "ECVoiceProgressbar.h"
+#import "ECDeslider.h"
 
 #endif
