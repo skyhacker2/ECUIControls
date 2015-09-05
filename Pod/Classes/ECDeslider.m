@@ -261,7 +261,7 @@
                 self.value1 = self.value2 - [self minBetweenValue];
             }
             [self sendActionsForControlEvents:UIControlEventValueChanged];
-            [self setNeedsLayout];
+            [self setNeedsUpdateConstraints];
         //}
     }
     if (self.thumb2Touched) {
@@ -279,7 +279,7 @@
         }
             //NSLog(@"value2 %f", self.value2);
             //self.value2 = (value2 / self.frame.size.width) * (self.maxValue - self.minValue);
-            [self setNeedsLayout];
+            [self setNeedsUpdateConstraints];
             [self sendActionsForControlEvents:UIControlEventValueChanged];
         //}
     }

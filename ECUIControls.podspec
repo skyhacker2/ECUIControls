@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "ECUIControls"
-  s.version          = "0.1.1"
+  s.version          = "0.1.2"
   s.summary          = "ECUIControls provides a group of custom control"
   s.description      = <<-DESC
                         #ECUIControls provides a group of custom control.
