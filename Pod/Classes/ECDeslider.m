@@ -59,7 +59,7 @@
                                                    attribute:NSLayoutAttributeLeading
                                                    relatedBy:NSLayoutRelationEqual
                                                       toItem:self
-                                                   attribute:NSLayoutAttributeLeft
+                                                   attribute:NSLayoutAttributeLeading
                                                   multiplier:1
                                                     constant:0];
     }
@@ -73,7 +73,7 @@
                                                     attribute:NSLayoutAttributeTrailing
                                                     relatedBy:NSLayoutRelationEqual
                                                        toItem:self
-                                                    attribute:NSLayoutAttributeRight
+                                                    attribute:NSLayoutAttributeTrailing
                                                    multiplier:1
                                                      constant:0];
     }

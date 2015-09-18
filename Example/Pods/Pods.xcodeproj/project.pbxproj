@@ -7,147 +7,151 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09DDC462568398ECCE4D14D1C58CDA36 /* ECDeslider.h in Headers */ = {isa = PBXBuildFile; fileRef = 032D3AB36D2AC43ED419019C25BD5992 /* ECDeslider.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D8990CD443A26C38BC986096DE9B295 /* ECDeslider.m in Sources */ = {isa = PBXBuildFile; fileRef = 88409E693EA4B72FDA3FB62599B550A2 /* ECDeslider.m */; };
+		053FF992601BCABCA3F3EB4F1DA42EB8 /* ECDeslider.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC3CB93562C298DCC3027AE0629700F /* ECDeslider.m */; };
+		173175B101D90A9BA2370CFE18582115 /* ECDeslider.h in Headers */ = {isa = PBXBuildFile; fileRef = A52753BBE30DB66D61099F76A054314B /* ECDeslider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18ADFDEB999615EDA5E75E5027680718 /* Pods-ECUIControls_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE0A3D7BABA75453BC5CADBC8860B0B /* Pods-ECUIControls_Tests-dummy.m */; };
-		1C58BBD10686FE6F3971D48813F6DF01 /* ECExtension.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1EFDA82ECEA0022B4DE3D6335B10AF66 /* ECExtension.bundle */; };
-		252D248743B0F7BBA136AFE0F3C0D120 /* ECVoiceProgressbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B3429B9FC7A2E1C06FB5A94400E3C7C /* ECVoiceProgressbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		31D55A084E4D1B2EAF404698CCCC12F7 /* ECExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B2F5D073B0940B1FB6C437427163C4 /* ECExtension-dummy.m */; };
+		18C124A2A417BA6CA87EA35BE209E4BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52567EA1102D1A8F02146B6B0FF79965 /* Foundation.framework */; };
+		196B789BC5B762E84FC63E7E7480133C /* ECUIControls-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F044BBA63C4B0E85F2AA9462586868B4 /* ECUIControls-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21B4F12706F7333C797A67DE929409AF /* UIColor+Extend.h in Headers */ = {isa = PBXBuildFile; fileRef = 09C318214EFEB76628FAD96DA891441F /* UIColor+Extend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A1AA85E569BC9F441DE65E373870B02 /* UIImage+Extend.h in Headers */ = {isa = PBXBuildFile; fileRef = EAD4EFCE54CCBDBA0D71F078C515BFB5 /* UIImage+Extend.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		367CB69F86B22D887111E2CC44C3F4A1 /* Pods-ECUIControls_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23CE8B12EFF7DEF986E59C7A9F744291 /* Pods-ECUIControls_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		439CCDF2D135537B3F545726C4722E3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E563F40DCAB4A39F244B7B91C84D1E8 /* Foundation.framework */; };
-		43D8A73D6612FCD01A9896B4C951080C /* ECVoiceProgressbar.m in Sources */ = {isa = PBXBuildFile; fileRef = FB37060DD7E4192253082F95119A4C26 /* ECVoiceProgressbar.m */; };
-		489597989A792CB6C82C89C077B821F1 /* ECExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D04D0D7B62E949A7659A723425DB813 /* ECExtension.framework */; };
-		518BBEDAEE6E3E8D637CB1463939FDE0 /* ECUIControls-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D866D532202C00B37A5217EB1CC444F4 /* ECUIControls-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		56CD5AE17926699D4021F2D35E2DA4BC /* UIView+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = D251462820CE2F1A4D2A8A605E81E24F /* UIView+Extend.m */; };
-		59EE26351DFBA11616B34BF7C81D395F /* UIView+Extend.h in Headers */ = {isa = PBXBuildFile; fileRef = 90747B0990361180A8EE3328D6A3D8B7 /* UIView+Extend.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6732E0F87D36C9F97854BD1406BCE3D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E563F40DCAB4A39F244B7B91C84D1E8 /* Foundation.framework */; };
-		6A18C992FEFB5546C2AC1B118B265654 /* CBUUID+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E7665887D15241B0DA96A3A201D600 /* CBUUID+Extend.m */; };
+		401C7D434AA5D57EC4C59DDC473F21CF /* ECUIControls.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C7C2146ABFB2DD9A0D6806B1E8528FC9 /* ECUIControls.bundle */; };
+		439CCDF2D135537B3F545726C4722E3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52567EA1102D1A8F02146B6B0FF79965 /* Foundation.framework */; };
+		44BFA72AB88587D11AFEAEFDA4EB1DDF /* ECExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 331532D02302DDAFE6CC4A60F40736BF /* ECExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		457A1A08412713A652B39B980F0C3AEF /* NSManagedObjectContext-EasyFetch.m in Sources */ = {isa = PBXBuildFile; fileRef = 756A940E8A42081D0B335E486B121E6A /* NSManagedObjectContext-EasyFetch.m */; };
+		4CEB1FB890A06DDA80FAFE4554A9B5F9 /* ECUIControls.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA0B575824DE00360633B6D629ABE99 /* ECUIControls.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F4F61A2FDD29A1537D83FDA05CFF6EF /* UIColor+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 3540C4B15C62A12D1F15091096CCC1F3 /* UIColor+Extend.m */; };
+		55B3720E912A9429DB81D8293B0D1CA3 /* ECVoiceProgressbar.h in Headers */ = {isa = PBXBuildFile; fileRef = EED409A0AB297E324E1A0927345484E7 /* ECVoiceProgressbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F9ABB9120CFDEC2E7E7056D4E56EBFC /* ECExtension.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9C4FBCE28362ECD63AEEC952F5A116B4 /* ECExtension.bundle */; };
 		76F9547C03541C38BDFBB3786D22C0D9 /* Pods-ECUIControls_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DDB0BC9A428B9BB56A6F10A2EED6038 /* Pods-ECUIControls_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		775B45708F1C8C180DDD31E9A04B0D82 /* ECExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B03D2528909F3CBB81F2C5BB254B635 /* ECExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C44C56FA244345E7EC69D65B4C981A2 /* UIImage+Extend.h in Headers */ = {isa = PBXBuildFile; fileRef = 327EAC76421C8F037BA9EE90779D5953 /* UIImage+Extend.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8568501BF41027125F9BBB3DF12AF590 /* CBUUID+Extend.h in Headers */ = {isa = PBXBuildFile; fileRef = E2F5F3E1FDA57D5D0CA65387EA128E31 /* CBUUID+Extend.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		88BFD31165D7061C8106A1B6FFFC3643 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E563F40DCAB4A39F244B7B91C84D1E8 /* Foundation.framework */; };
-		AEFA0553C2B0C95A8FC9650F0119B2F1 /* UIImage+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B117B8612F2EB2DFCB8C536D4A7F3DA /* UIImage+Extend.m */; };
-		B2552D4BEBF15C5BC59524B2E4F7194A /* UIColor+Extend.h in Headers */ = {isa = PBXBuildFile; fileRef = 190AA4534A80713C9DD719BF9DAF0126 /* UIColor+Extend.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BE030EF0A27735A640F264FAC87505B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E563F40DCAB4A39F244B7B91C84D1E8 /* Foundation.framework */; };
-		D57F7304172D025B53696812EF6134A3 /* ECUIControls.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C40CB72B7D12095ABD098AAD0AE9B976 /* ECUIControls.bundle */; };
-		E3921ADB03CC3A39D85781010BCB2288 /* ECExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A7A16CAF4D19F7F8D3ED6CE873E8E44 /* ECExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E40EED6B22442FE421854CB564BB81F3 /* ECUIControls-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F5BFF5E16D037732F9673145B080EF /* ECUIControls-dummy.m */; };
-		E89615BAD068F79CE3A6C7D8EA871AB5 /* UIColor+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC89AC6C94FFA633DDABCC485D213C0 /* UIColor+Extend.m */; };
+		7C5AEBAE0FF2FA07A0CAB1154A055ED8 /* ECExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D418BA428C6105741D7579DAA95B335 /* ECExtension-dummy.m */; };
+		823E3E71C70A9F3B1803E3543744F9FD /* ECVoiceProgressbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 88356E70555182B3B7EC72AE298DC253 /* ECVoiceProgressbar.m */; };
+		8DB54535BAB85023A318589146175A84 /* UIView+Extend.h in Headers */ = {isa = PBXBuildFile; fileRef = C2D95E027D7A7E12A6AC6C06F5D0C53C /* UIView+Extend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DEF96A32B15D2A92A233EFD2AAE3D8D /* UIImage+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5EDA2B292EFF87819DCCF4A41B0BDF /* UIImage+Extend.m */; };
+		B6170364A7D35DB079AFE12A1DBB172E /* CBUUID+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 828AE1F70C7763991766A0882721EF51 /* CBUUID+Extend.m */; };
+		BE030EF0A27735A640F264FAC87505B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52567EA1102D1A8F02146B6B0FF79965 /* Foundation.framework */; };
+		C2ACB84F0047A4516A0E16C7A0F3202B /* NSManagedObjectContext-EasyFetch.h in Headers */ = {isa = PBXBuildFile; fileRef = 210E605489C3632813A6DC4E092254C3 /* NSManagedObjectContext-EasyFetch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6958EFA80DACAC0AE8DF11CAB3E37C6 /* CBUUID+Extend.h in Headers */ = {isa = PBXBuildFile; fileRef = 32ABB90382A17F1BBE5E3FD5950BB823 /* CBUUID+Extend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D94695253D0320098DF334276235CF92 /* ECExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = E3B3F23FB1264055339234E015FA0063 /* ECExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4C58AA9275DEB81BD792811DA072FC8 /* ECUIControls-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FDA3309280E4A94CD55579AB008B5C /* ECUIControls-dummy.m */; };
+		E719ADA308C64D844EBCEDCF0EBBB9BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52567EA1102D1A8F02146B6B0FF79965 /* Foundation.framework */; };
 		F03E150D0D9C6A2BB3038814C22D2311 /* Pods-ECUIControls_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A76960FD77464A97F777AD723C9FB948 /* Pods-ECUIControls_Example-dummy.m */; };
-		FF397BBEA797BA3DABD0676E92B9E0B2 /* ECUIControls.h in Headers */ = {isa = PBXBuildFile; fileRef = 77F9B9F6F0BA94B1B1055E3C496D1B5E /* ECUIControls.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1F2DF9E81391039D655F492AE893C96 /* UIView+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3B83BF5241585ECABB5966F2448C9F /* UIView+Extend.m */; };
+		FA00681AE85C5168D0423C23FD9B1F2B /* ECExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5715C2EFCF29F09DFC410AD6B8FDB364 /* ECExtension.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		032582D437C3681E1E91E44D9C609466 /* PBXContainerItemProxy */ = {
+		31374AD5D490FADD9C4D5114BF6F24E9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A9AFEA4E02BF78141E543A29C1EB9EDC;
-			remoteInfo = "ECUIControls-ECUIControls";
-		};
-		32DFADAF8FE7212104FF39F3B1BE04CB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F511146DD7F641562C8F5D0F176D88F8;
+			remoteGlobalIDString = 7994CEC28488120D817C2AEA03E9F514;
 			remoteInfo = ECExtension;
 		};
-		44EF0C267DC75B7DEB892D1C39715D33 /* PBXContainerItemProxy */ = {
+		8491A6615A89D8D6921F02A68C7AB399 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2F875F5EB49FAB9E08B8DFD67844B1FB;
-			remoteInfo = ECUIControls;
+			remoteGlobalIDString = 7994CEC28488120D817C2AEA03E9F514;
+			remoteInfo = ECExtension;
 		};
-		591274CCAA6A271803CDD79E08F2E533 /* PBXContainerItemProxy */ = {
+		AE9191E78DB741B1391CB54536CC81CF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2F875F5EB49FAB9E08B8DFD67844B1FB;
-			remoteInfo = ECUIControls;
-		};
-		6F768192720C555B9855311B9E012368 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 653D6706D0192899C5B97C8885DF7C43;
+			remoteGlobalIDString = 61446FEF99818CCA845B37D4870650A2;
 			remoteInfo = "ECExtension-ECExtension";
 		};
-		915EA142B667A6E2B3DBED4D2D5EB269 /* PBXContainerItemProxy */ = {
+		B062B9F519D3CFC052C5798B97E0A460 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F511146DD7F641562C8F5D0F176D88F8;
+			remoteGlobalIDString = ABA0D6EF321502D1313DD76C66E93C13;
+			remoteInfo = "ECUIControls-ECUIControls";
+		};
+		CBFE7FE1369758C88DE0EBA563280763 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7994CEC28488120D817C2AEA03E9F514;
 			remoteInfo = ECExtension;
 		};
-		9A52E54B02ECFC5167BDC73AA999917B /* PBXContainerItemProxy */ = {
+		D67385D3F6B334A09249E1C9E797B010 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F511146DD7F641562C8F5D0F176D88F8;
-			remoteInfo = ECExtension;
+			remoteGlobalIDString = B4EFFDDABBEAD6BC427789C6642C8014;
+			remoteInfo = ECUIControls;
+		};
+		F5071374BA46D1F4733838CFC2CA9073 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4EFFDDABBEAD6BC427789C6642C8014;
+			remoteInfo = ECUIControls;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		029E1FDAB33CC463305132B052B4AF6F /* Pods-ECUIControls_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ECUIControls_Example.modulemap"; sourceTree = "<group>"; };
 		02D5673167B3B95BAD7BEF13703E0FAB /* Pods-ECUIControls_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ECUIControls_Example.release.xcconfig"; sourceTree = "<group>"; };
-		032D3AB36D2AC43ED419019C25BD5992 /* ECDeslider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ECDeslider.h; sourceTree = "<group>"; };
 		07D7934603B51900D60917064727565A /* ECUIControls.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ECUIControls.xcconfig; sourceTree = "<group>"; };
-		13BF1DC000E0AF08A8968F9EC5F63BE0 /* ECUIControls-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ECUIControls-Private.xcconfig"; sourceTree = "<group>"; };
+		07FDA3309280E4A94CD55579AB008B5C /* ECUIControls-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ECUIControls-dummy.m"; sourceTree = "<group>"; };
+		09C318214EFEB76628FAD96DA891441F /* UIColor+Extend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Extend.h"; path = "Pod/Classes/UIColor+Extend.h"; sourceTree = "<group>"; };
+		0CC3CB93562C298DCC3027AE0629700F /* ECDeslider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ECDeslider.m; sourceTree = "<group>"; };
+		0F3B83BF5241585ECABB5966F2448C9F /* UIView+Extend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Extend.m"; path = "Pod/Classes/UIView+Extend.m"; sourceTree = "<group>"; };
 		17C4BD852B4CF532894DE6FBC6D0AE1B /* Pods-ECUIControls_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ECUIControls_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		18169AC6895DD2BA02911EE3771FE3AC /* ECExtension-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ECExtension-Private.xcconfig"; sourceTree = "<group>"; };
-		190AA4534A80713C9DD719BF9DAF0126 /* UIColor+Extend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Extend.h"; path = "Pod/Classes/UIColor+Extend.h"; sourceTree = "<group>"; };
-		1E563F40DCAB4A39F244B7B91C84D1E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		1ED37739BC28E509C765776D5C786CFD /* Pods-ECUIControls_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ECUIControls_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		1EFDA82ECEA0022B4DE3D6335B10AF66 /* ECExtension.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECExtension.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		210E605489C3632813A6DC4E092254C3 /* NSManagedObjectContext-EasyFetch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectContext-EasyFetch.h"; path = "Pod/Classes/NSManagedObjectContext-EasyFetch.h"; sourceTree = "<group>"; };
+		21A5AB3110040398E7C2DEA3B5970CA9 /* ECUIControls.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ECUIControls.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		23CE8B12EFF7DEF986E59C7A9F744291 /* Pods-ECUIControls_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ECUIControls_Example-umbrella.h"; sourceTree = "<group>"; };
-		2B117B8612F2EB2DFCB8C536D4A7F3DA /* UIImage+Extend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Extend.m"; path = "Pod/Classes/UIImage+Extend.m"; sourceTree = "<group>"; };
-		2B3429B9FC7A2E1C06FB5A94400E3C7C /* ECVoiceProgressbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ECVoiceProgressbar.h; sourceTree = "<group>"; };
-		327EAC76421C8F037BA9EE90779D5953 /* UIImage+Extend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Extend.h"; path = "Pod/Classes/UIImage+Extend.h"; sourceTree = "<group>"; };
+		32ABB90382A17F1BBE5E3FD5950BB823 /* CBUUID+Extend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CBUUID+Extend.h"; path = "Pod/Classes/CBUUID+Extend.h"; sourceTree = "<group>"; };
+		331532D02302DDAFE6CC4A60F40736BF /* ECExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ECExtension-umbrella.h"; sourceTree = "<group>"; };
+		3540C4B15C62A12D1F15091096CCC1F3 /* UIColor+Extend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Extend.m"; path = "Pod/Classes/UIColor+Extend.m"; sourceTree = "<group>"; };
 		3C203EED8FB5B28A6B0D1595CFCCD680 /* Pods-ECUIControls_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ECUIControls_Example-frameworks.sh"; sourceTree = "<group>"; };
-		3D04D0D7B62E949A7659A723425DB813 /* ECExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ECExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DDB0BC9A428B9BB56A6F10A2EED6038 /* Pods-ECUIControls_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ECUIControls_Tests-umbrella.h"; sourceTree = "<group>"; };
-		3FC89AC6C94FFA633DDABCC485D213C0 /* UIColor+Extend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Extend.m"; path = "Pod/Classes/UIColor+Extend.m"; sourceTree = "<group>"; };
 		440BDFDD4204BB941E259E994B348128 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4E965F9E945BB50067BF053D2FB3065C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		54690096A1753AC383F03D8D89A88026 /* ECExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ECExtension.modulemap; sourceTree = "<group>"; };
+		4F26914EF8A1A81361D0527AEA0E3D74 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52567EA1102D1A8F02146B6B0FF79965 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5695068937499277C5EC101104631FBC /* ECUIControls-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ECUIControls-prefix.pch"; sourceTree = "<group>"; };
+		5715C2EFCF29F09DFC410AD6B8FDB364 /* ECExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ECExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		588A2B1A9BF9B2666B88C74E457CA7EC /* Pods-ECUIControls_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ECUIControls_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		66B2F5D073B0940B1FB6C437427163C4 /* ECExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ECExtension-dummy.m"; sourceTree = "<group>"; };
-		66F149BECC9E0AED1624A09B6A5C4C56 /* ECExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ECExtension-prefix.pch"; sourceTree = "<group>"; };
-		6A7A16CAF4D19F7F8D3ED6CE873E8E44 /* ECExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ECExtension-umbrella.h"; sourceTree = "<group>"; };
+		6D418BA428C6105741D7579DAA95B335 /* ECExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ECExtension-dummy.m"; sourceTree = "<group>"; };
 		6E081C4E9897C276DFAFAC3A50DE2F7E /* Pods-ECUIControls_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ECUIControls_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		722A3083520960B2F1C7AD41F39F2C27 /* Pods-ECUIControls_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ECUIControls_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		77BFDABC009BF601559563CC10D91C2D /* ECExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ECExtension.xcconfig; sourceTree = "<group>"; };
-		77F9B9F6F0BA94B1B1055E3C496D1B5E /* ECUIControls.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ECUIControls.h; sourceTree = "<group>"; };
-		7B03D2528909F3CBB81F2C5BB254B635 /* ECExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ECExtension.h; path = Pod/Classes/ECExtension.h; sourceTree = "<group>"; };
+		756A940E8A42081D0B335E486B121E6A /* NSManagedObjectContext-EasyFetch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectContext-EasyFetch.m"; path = "Pod/Classes/NSManagedObjectContext-EasyFetch.m"; sourceTree = "<group>"; };
+		78FB87FA1770E3EFC9E254E03B0F0958 /* ECExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ECExtension.modulemap; sourceTree = "<group>"; };
+		7BF847BBE8E9546D777CF5BA7D68998A /* ECExtension-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ECExtension-Private.xcconfig"; sourceTree = "<group>"; };
 		807F6FAA687C02A9A5FBE668A0EF4FD8 /* Pods-ECUIControls_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ECUIControls_Example-resources.sh"; sourceTree = "<group>"; };
+		828AE1F70C7763991766A0882721EF51 /* CBUUID+Extend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CBUUID+Extend.m"; path = "Pod/Classes/CBUUID+Extend.m"; sourceTree = "<group>"; };
 		8834B82C689FA4ECD9056F40611FDD94 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		88409E693EA4B72FDA3FB62599B550A2 /* ECDeslider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ECDeslider.m; sourceTree = "<group>"; };
+		88356E70555182B3B7EC72AE298DC253 /* ECVoiceProgressbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ECVoiceProgressbar.m; sourceTree = "<group>"; };
 		8C85DEA4987991BEC22E5B9AD9721BE6 /* Pods-ECUIControls_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ECUIControls_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		8CFC5904EA1B867D73D2D6D08618A0BC /* Pods-ECUIControls_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ECUIControls_Tests.modulemap"; sourceTree = "<group>"; };
-		90747B0990361180A8EE3328D6A3D8B7 /* UIView+Extend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Extend.h"; path = "Pod/Classes/UIView+Extend.h"; sourceTree = "<group>"; };
-		9EA56C869256DF28627788814CF06527 /* ECUIControls.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ECUIControls.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1ED9CF49DCFE6F5CDB18322881AF258 /* ECExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ECExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B5EDA2B292EFF87819DCCF4A41B0BDF /* UIImage+Extend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Extend.m"; path = "Pod/Classes/UIImage+Extend.m"; sourceTree = "<group>"; };
+		9C4FBCE28362ECD63AEEC952F5A116B4 /* ECExtension.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECExtension.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A52753BBE30DB66D61099F76A054314B /* ECDeslider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ECDeslider.h; sourceTree = "<group>"; };
 		A76960FD77464A97F777AD723C9FB948 /* Pods-ECUIControls_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ECUIControls_Example-dummy.m"; sourceTree = "<group>"; };
 		AA2E2C8D476C9D1C266615A470990FE0 /* Pods-ECUIControls_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ECUIControls_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		B2F5BFF5E16D037732F9673145B080EF /* ECUIControls-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ECUIControls-dummy.m"; sourceTree = "<group>"; };
+		ADA0B575824DE00360633B6D629ABE99 /* ECUIControls.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ECUIControls.h; sourceTree = "<group>"; };
+		AE6D1FFEB91DB92B5CFF1369F19AE817 /* ECExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ECExtension.xcconfig; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BAE0A3D7BABA75453BC5CADBC8860B0B /* Pods-ECUIControls_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ECUIControls_Tests-dummy.m"; sourceTree = "<group>"; };
-		C40CB72B7D12095ABD098AAD0AE9B976 /* ECUIControls.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECUIControls.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2D95E027D7A7E12A6AC6C06F5D0C53C /* UIView+Extend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Extend.h"; path = "Pod/Classes/UIView+Extend.h"; sourceTree = "<group>"; };
+		C59B960524A3EBD3E579C2D852B923C4 /* ECExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ECExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5A97F11B66026CB6E953E2AFF9DE80C /* ECExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ECExtension-prefix.pch"; sourceTree = "<group>"; };
 		C65A294BEA44DEE37F0A1D09F73AA69F /* Pods_ECUIControls_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ECUIControls_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C679EE293D3EE8F6DFF22B68476EEC5B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C69BCEBA57AEC42AB31F55A756E93550 /* Pods-ECUIControls_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ECUIControls_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D251462820CE2F1A4D2A8A605E81E24F /* UIView+Extend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Extend.m"; path = "Pod/Classes/UIView+Extend.m"; sourceTree = "<group>"; };
-		D3E7665887D15241B0DA96A3A201D600 /* CBUUID+Extend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CBUUID+Extend.m"; path = "Pod/Classes/CBUUID+Extend.m"; sourceTree = "<group>"; };
+		C7C2146ABFB2DD9A0D6806B1E8528FC9 /* ECUIControls.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECUIControls.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		D68C689B1571B1015E04B6D5DD0C30E9 /* ECUIControls.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ECUIControls.modulemap; sourceTree = "<group>"; };
-		D866D532202C00B37A5217EB1CC444F4 /* ECUIControls-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ECUIControls-umbrella.h"; sourceTree = "<group>"; };
+		DA3561937E779F789A2C3C7F8ADC53B2 /* ECUIControls-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ECUIControls-Private.xcconfig"; sourceTree = "<group>"; };
 		DE43D04B75213B4026CDD0859E5AF66B /* Pods-ECUIControls_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ECUIControls_Tests-resources.sh"; sourceTree = "<group>"; };
-		E2F5F3E1FDA57D5D0CA65387EA128E31 /* CBUUID+Extend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CBUUID+Extend.h"; path = "Pod/Classes/CBUUID+Extend.h"; sourceTree = "<group>"; };
+		E3B3F23FB1264055339234E015FA0063 /* ECExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ECExtension.h; path = Pod/Classes/ECExtension.h; sourceTree = "<group>"; };
 		E95986731B0AB3D3F281A09BBC9DCD90 /* Pods_ECUIControls_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ECUIControls_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB37060DD7E4192253082F95119A4C26 /* ECVoiceProgressbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ECVoiceProgressbar.m; sourceTree = "<group>"; };
+		EAD4EFCE54CCBDBA0D71F078C515BFB5 /* UIImage+Extend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Extend.h"; path = "Pod/Classes/UIImage+Extend.h"; sourceTree = "<group>"; };
+		EED409A0AB297E324E1A0927345484E7 /* ECVoiceProgressbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ECVoiceProgressbar.h; sourceTree = "<group>"; };
+		F044BBA63C4B0E85F2AA9462586868B4 /* ECUIControls-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ECUIControls-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,34 +163,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4EA70776ADAD87F278987922AF1498B6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				489597989A792CB6C82C89C077B821F1 /* ECExtension.framework in Frameworks */,
-				6732E0F87D36C9F97854BD1406BCE3D6 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D8D36A92FDFE76F81B3BA40389D3D602 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				88BFD31165D7061C8106A1B6FFFC3643 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EE44949D766BF2C2E14C270D820C71F0 /* Frameworks */ = {
+		A2311203AB92C96DFBA89B78DC36B7AE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF1F598C640EE3FF719094118570F508 /* Frameworks */ = {
+		CC3F5A34CF2FE1F249A97678F59887E4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E21E69EAEA83826E01B91379C51DC1AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E719ADA308C64D844EBCEDCF0EBBB9BA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,39 +193,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FB056C04A77044E77CD02314E7BCA730 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA00681AE85C5168D0423C23FD9B1F2B /* ECExtension.framework in Frameworks */,
+				18C124A2A417BA6CA87EA35BE209E4BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		086A24ECE3384E6A3E2B2198903202CF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3D04D0D7B62E949A7659A723425DB813 /* ECExtension.framework */,
+				5715C2EFCF29F09DFC410AD6B8FDB364 /* ECExtension.framework */,
 				2B19EA7367326D954E82928783FD85A5 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1D4E1D345D92CBC4403401840B4D7881 /* ECExtension */ = {
-			isa = PBXGroup;
-			children = (
-				E2F5F3E1FDA57D5D0CA65387EA128E31 /* CBUUID+Extend.h */,
-				D3E7665887D15241B0DA96A3A201D600 /* CBUUID+Extend.m */,
-				7B03D2528909F3CBB81F2C5BB254B635 /* ECExtension.h */,
-				190AA4534A80713C9DD719BF9DAF0126 /* UIColor+Extend.h */,
-				3FC89AC6C94FFA633DDABCC485D213C0 /* UIColor+Extend.m */,
-				327EAC76421C8F037BA9EE90779D5953 /* UIImage+Extend.h */,
-				2B117B8612F2EB2DFCB8C536D4A7F3DA /* UIImage+Extend.m */,
-				90747B0990361180A8EE3328D6A3D8B7 /* UIView+Extend.h */,
-				D251462820CE2F1A4D2A8A605E81E24F /* UIView+Extend.m */,
-				B92507922F222C58B268C19BEED39D50 /* Support Files */,
-			);
-			path = ECExtension;
-			sourceTree = "<group>";
-		};
 		2B19EA7367326D954E82928783FD85A5 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				1E563F40DCAB4A39F244B7B91C84D1E8 /* Foundation.framework */,
+				52567EA1102D1A8F02146B6B0FF79965 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -248,10 +235,10 @@
 			children = (
 				D68C689B1571B1015E04B6D5DD0C30E9 /* ECUIControls.modulemap */,
 				07D7934603B51900D60917064727565A /* ECUIControls.xcconfig */,
-				13BF1DC000E0AF08A8968F9EC5F63BE0 /* ECUIControls-Private.xcconfig */,
-				B2F5BFF5E16D037732F9673145B080EF /* ECUIControls-dummy.m */,
+				DA3561937E779F789A2C3C7F8ADC53B2 /* ECUIControls-Private.xcconfig */,
+				07FDA3309280E4A94CD55579AB008B5C /* ECUIControls-dummy.m */,
 				5695068937499277C5EC101104631FBC /* ECUIControls-prefix.pch */,
-				D866D532202C00B37A5217EB1CC444F4 /* ECUIControls-umbrella.h */,
+				F044BBA63C4B0E85F2AA9462586868B4 /* ECUIControls-umbrella.h */,
 				8834B82C689FA4ECD9056F40611FDD94 /* Info.plist */,
 			);
 			name = "Support Files";
@@ -294,13 +281,32 @@
 			path = "Target Support Files/Pods-ECUIControls_Tests";
 			sourceTree = "<group>";
 		};
+		731768F3D8C6E8D476DB77477A5F8EE0 /* ECExtension */ = {
+			isa = PBXGroup;
+			children = (
+				32ABB90382A17F1BBE5E3FD5950BB823 /* CBUUID+Extend.h */,
+				828AE1F70C7763991766A0882721EF51 /* CBUUID+Extend.m */,
+				E3B3F23FB1264055339234E015FA0063 /* ECExtension.h */,
+				210E605489C3632813A6DC4E092254C3 /* NSManagedObjectContext-EasyFetch.h */,
+				756A940E8A42081D0B335E486B121E6A /* NSManagedObjectContext-EasyFetch.m */,
+				09C318214EFEB76628FAD96DA891441F /* UIColor+Extend.h */,
+				3540C4B15C62A12D1F15091096CCC1F3 /* UIColor+Extend.m */,
+				EAD4EFCE54CCBDBA0D71F078C515BFB5 /* UIImage+Extend.h */,
+				9B5EDA2B292EFF87819DCCF4A41B0BDF /* UIImage+Extend.m */,
+				C2D95E027D7A7E12A6AC6C06F5D0C53C /* UIView+Extend.h */,
+				0F3B83BF5241585ECABB5966F2448C9F /* UIView+Extend.m */,
+				C3A8DE69C7CC9D8EA95DA0D037DD4E04 /* Support Files */,
+			);
+			path = ECExtension;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				3171B76445901CFDF40F4DF09E810FB2 /* Development Pods */,
 				086A24ECE3384E6A3E2B2198903202CF /* Frameworks */,
-				FB94308130B4EB4D3DBFCEC210712E89 /* Pods */,
+				BBFDF506747BD61F3EA1012A4BF505FD /* Pods */,
 				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
 				8C6B6CE3CEFBA055354F1FDF403E2265 /* Targets Support Files */,
 			);
@@ -318,25 +324,33 @@
 		AA37E4FD2410A1B449A9B363C5AEF42F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				032D3AB36D2AC43ED419019C25BD5992 /* ECDeslider.h */,
-				88409E693EA4B72FDA3FB62599B550A2 /* ECDeslider.m */,
-				77F9B9F6F0BA94B1B1055E3C496D1B5E /* ECUIControls.h */,
-				2B3429B9FC7A2E1C06FB5A94400E3C7C /* ECVoiceProgressbar.h */,
-				FB37060DD7E4192253082F95119A4C26 /* ECVoiceProgressbar.m */,
+				A52753BBE30DB66D61099F76A054314B /* ECDeslider.h */,
+				0CC3CB93562C298DCC3027AE0629700F /* ECDeslider.m */,
+				ADA0B575824DE00360633B6D629ABE99 /* ECUIControls.h */,
+				EED409A0AB297E324E1A0927345484E7 /* ECVoiceProgressbar.h */,
+				88356E70555182B3B7EC72AE298DC253 /* ECVoiceProgressbar.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		B92507922F222C58B268C19BEED39D50 /* Support Files */ = {
+		BBFDF506747BD61F3EA1012A4BF505FD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				54690096A1753AC383F03D8D89A88026 /* ECExtension.modulemap */,
-				77BFDABC009BF601559563CC10D91C2D /* ECExtension.xcconfig */,
-				18169AC6895DD2BA02911EE3771FE3AC /* ECExtension-Private.xcconfig */,
-				66B2F5D073B0940B1FB6C437427163C4 /* ECExtension-dummy.m */,
-				66F149BECC9E0AED1624A09B6A5C4C56 /* ECExtension-prefix.pch */,
-				6A7A16CAF4D19F7F8D3ED6CE873E8E44 /* ECExtension-umbrella.h */,
-				4E965F9E945BB50067BF053D2FB3065C /* Info.plist */,
+				731768F3D8C6E8D476DB77477A5F8EE0 /* ECExtension */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C3A8DE69C7CC9D8EA95DA0D037DD4E04 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				78FB87FA1770E3EFC9E254E03B0F0958 /* ECExtension.modulemap */,
+				AE6D1FFEB91DB92B5CFF1369F19AE817 /* ECExtension.xcconfig */,
+				7BF847BBE8E9546D777CF5BA7D68998A /* ECExtension-Private.xcconfig */,
+				6D418BA428C6105741D7579DAA95B335 /* ECExtension-dummy.m */,
+				C5A97F11B66026CB6E953E2AFF9DE80C /* ECExtension-prefix.pch */,
+				331532D02302DDAFE6CC4A60F40736BF /* ECExtension-umbrella.h */,
+				4F26914EF8A1A81361D0527AEA0E3D74 /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/ECExtension";
@@ -345,10 +359,10 @@
 		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1EFDA82ECEA0022B4DE3D6335B10AF66 /* ECExtension.bundle */,
-				A1ED9CF49DCFE6F5CDB18322881AF258 /* ECExtension.framework */,
-				C40CB72B7D12095ABD098AAD0AE9B976 /* ECUIControls.bundle */,
-				9EA56C869256DF28627788814CF06527 /* ECUIControls.framework */,
+				9C4FBCE28362ECD63AEEC952F5A116B4 /* ECExtension.bundle */,
+				C59B960524A3EBD3E579C2D852B923C4 /* ECExtension.framework */,
+				C7C2146ABFB2DD9A0D6806B1E8528FC9 /* ECUIControls.bundle */,
+				21A5AB3110040398E7C2DEA3B5970CA9 /* ECUIControls.framework */,
 				C65A294BEA44DEE37F0A1D09F73AA69F /* Pods_ECUIControls_Example.framework */,
 				E95986731B0AB3D3F281A09BBC9DCD90 /* Pods_ECUIControls_Tests.framework */,
 			);
@@ -373,38 +387,17 @@
 			path = "Target Support Files/Pods-ECUIControls_Example";
 			sourceTree = "<group>";
 		};
-		FB94308130B4EB4D3DBFCEC210712E89 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1D4E1D345D92CBC4403401840B4D7881 /* ECExtension */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		120221D755E94464142D5653F3581FD2 /* Headers */ = {
+		25CD05DD53D0DCD799DE8C635D78BFDB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09DDC462568398ECCE4D14D1C58CDA36 /* ECDeslider.h in Headers */,
-				518BBEDAEE6E3E8D637CB1463939FDE0 /* ECUIControls-umbrella.h in Headers */,
-				FF397BBEA797BA3DABD0676E92B9E0B2 /* ECUIControls.h in Headers */,
-				252D248743B0F7BBA136AFE0F3C0D120 /* ECVoiceProgressbar.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		33DA260CA3431E343D639FCA8296D9A8 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8568501BF41027125F9BBB3DF12AF590 /* CBUUID+Extend.h in Headers */,
-				E3921ADB03CC3A39D85781010BCB2288 /* ECExtension-umbrella.h in Headers */,
-				775B45708F1C8C180DDD31E9A04B0D82 /* ECExtension.h in Headers */,
-				B2552D4BEBF15C5BC59524B2E4F7194A /* UIColor+Extend.h in Headers */,
-				7C44C56FA244345E7EC69D65B4C981A2 /* UIImage+Extend.h in Headers */,
-				59EE26351DFBA11616B34BF7C81D395F /* UIView+Extend.h in Headers */,
+				173175B101D90A9BA2370CFE18582115 /* ECDeslider.h in Headers */,
+				196B789BC5B762E84FC63E7E7480133C /* ECUIControls-umbrella.h in Headers */,
+				4CEB1FB890A06DDA80FAFE4554A9B5F9 /* ECUIControls.h in Headers */,
+				55B3720E912A9429DB81D8293B0D1CA3 /* ECVoiceProgressbar.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +417,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7DD5C550E777E41AA34FF4AABDA8F831 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6958EFA80DACAC0AE8DF11CAB3E37C6 /* CBUUID+Extend.h in Headers */,
+				44BFA72AB88587D11AFEAEFDA4EB1DDF /* ECExtension-umbrella.h in Headers */,
+				D94695253D0320098DF334276235CF92 /* ECExtension.h in Headers */,
+				C2ACB84F0047A4516A0E16C7A0F3202B /* NSManagedObjectContext-EasyFetch.h in Headers */,
+				21B4F12706F7333C797A67DE929409AF /* UIColor+Extend.h in Headers */,
+				2A1AA85E569BC9F441DE65E373870B02 /* UIImage+Extend.h in Headers */,
+				8DB54535BAB85023A318589146175A84 /* UIView+Extend.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -438,41 +445,21 @@
 			buildRules = (
 			);
 			dependencies = (
-				049AF986E5F7C280BFDF38D59B6B7F3A /* PBXTargetDependency */,
-				76528B66E4477A3D509B242F754EBC72 /* PBXTargetDependency */,
+				48DA14A1D4220B5C147AEA96A6760A6D /* PBXTargetDependency */,
+				B5B9EFB76ACCD824AD3DCD114F9071AA /* PBXTargetDependency */,
 			);
 			name = "Pods-ECUIControls_Example";
 			productName = "Pods-ECUIControls_Example";
 			productReference = C65A294BEA44DEE37F0A1D09F73AA69F /* Pods_ECUIControls_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		2F875F5EB49FAB9E08B8DFD67844B1FB /* ECUIControls */ = {
+		61446FEF99818CCA845B37D4870650A2 /* ECExtension-ECExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A8A348C15A42118C839B79AC05A6083 /* Build configuration list for PBXNativeTarget "ECUIControls" */;
+			buildConfigurationList = 11C35F7C9E5882FA68FD5F73431464AB /* Build configuration list for PBXNativeTarget "ECExtension-ECExtension" */;
 			buildPhases = (
-				3FECA124441A8F3A08F6695DD1A92BFC /* Sources */,
-				4EA70776ADAD87F278987922AF1498B6 /* Frameworks */,
-				C92D9BD4ED8F226774D47968048D4114 /* Resources */,
-				120221D755E94464142D5653F3581FD2 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C52439888B7EDC52B3E4A2E1C7F140E0 /* PBXTargetDependency */,
-				2D201A9DB51EAD88F675B086CA3469E3 /* PBXTargetDependency */,
-			);
-			name = ECUIControls;
-			productName = ECUIControls;
-			productReference = 9EA56C869256DF28627788814CF06527 /* ECUIControls.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		653D6706D0192899C5B97C8885DF7C43 /* ECExtension-ECExtension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 361F5FB735D82C661DCF03B638E750C4 /* Build configuration list for PBXNativeTarget "ECExtension-ECExtension" */;
-			buildPhases = (
-				294DDB45CE46DD9DF36CAC40796278DB /* Sources */,
-				EE44949D766BF2C2E14C270D820C71F0 /* Frameworks */,
-				453DDCA180917B3926E7FAA2252E17DA /* Resources */,
+				4EE4BE1B5C144187594623860CB6FBD4 /* Sources */,
+				CC3F5A34CF2FE1F249A97678F59887E4 /* Frameworks */,
+				DB86DE0973E1739D3B1D7A7673AF33D2 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -480,8 +467,27 @@
 			);
 			name = "ECExtension-ECExtension";
 			productName = "ECExtension-ECExtension";
-			productReference = 1EFDA82ECEA0022B4DE3D6335B10AF66 /* ECExtension.bundle */;
+			productReference = 9C4FBCE28362ECD63AEEC952F5A116B4 /* ECExtension.bundle */;
 			productType = "com.apple.product-type.bundle";
+		};
+		7994CEC28488120D817C2AEA03E9F514 /* ECExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8F90587DEADC040CED5858F68CCC452 /* Build configuration list for PBXNativeTarget "ECExtension" */;
+			buildPhases = (
+				F2F1088E87E0C9C385FB4189A36242B6 /* Sources */,
+				E21E69EAEA83826E01B91379C51DC1AC /* Frameworks */,
+				9336BE0354E2E0EC5E0FC85FEF8A2BE7 /* Resources */,
+				7DD5C550E777E41AA34FF4AABDA8F831 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				849E2CBE67301FC4A65559C225D4616D /* PBXTargetDependency */,
+			);
+			name = ECExtension;
+			productName = ECExtension;
+			productReference = C59B960524A3EBD3E579C2D852B923C4 /* ECExtension.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 		8E36CD4FAE4D8E835D36A12A040E323B /* Pods-ECUIControls_Tests */ = {
 			isa = PBXNativeTarget;
@@ -494,21 +500,21 @@
 			buildRules = (
 			);
 			dependencies = (
-				8F4C2E9B7FE4971CD6A060B8B69729C1 /* PBXTargetDependency */,
-				99A4206052B627C1C232FCE4FB6DAF0D /* PBXTargetDependency */,
+				CBD8668A9DCE24A247E1F4636F70672C /* PBXTargetDependency */,
+				357BD791417C2D522CE5CA40D9BDD411 /* PBXTargetDependency */,
 			);
 			name = "Pods-ECUIControls_Tests";
 			productName = "Pods-ECUIControls_Tests";
 			productReference = E95986731B0AB3D3F281A09BBC9DCD90 /* Pods_ECUIControls_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A9AFEA4E02BF78141E543A29C1EB9EDC /* ECUIControls-ECUIControls */ = {
+		ABA0D6EF321502D1313DD76C66E93C13 /* ECUIControls-ECUIControls */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 64237539973244382BA06F8699073964 /* Build configuration list for PBXNativeTarget "ECUIControls-ECUIControls" */;
+			buildConfigurationList = 6732782BB9AA55AD14FEB8B9E74F0787 /* Build configuration list for PBXNativeTarget "ECUIControls-ECUIControls" */;
 			buildPhases = (
-				8AA19C3DB3A300FDF685D07FBFD14097 /* Sources */,
-				EF1F598C640EE3FF719094118570F508 /* Frameworks */,
-				F441E7DD2D129EAFA73E81D01FEBCC88 /* Resources */,
+				12D7B977585924CACFD38F1195B7D962 /* Sources */,
+				A2311203AB92C96DFBA89B78DC36B7AE /* Frameworks */,
+				E812D2724D6ED92EA5F9D47C57E5F890 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -516,26 +522,27 @@
 			);
 			name = "ECUIControls-ECUIControls";
 			productName = "ECUIControls-ECUIControls";
-			productReference = C40CB72B7D12095ABD098AAD0AE9B976 /* ECUIControls.bundle */;
+			productReference = C7C2146ABFB2DD9A0D6806B1E8528FC9 /* ECUIControls.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		F511146DD7F641562C8F5D0F176D88F8 /* ECExtension */ = {
+		B4EFFDDABBEAD6BC427789C6642C8014 /* ECUIControls */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5D8292843572EF97CAC22E748B03AC5F /* Build configuration list for PBXNativeTarget "ECExtension" */;
+			buildConfigurationList = D7BC7E5B40AE34755A70E2334FD97A94 /* Build configuration list for PBXNativeTarget "ECUIControls" */;
 			buildPhases = (
-				DB41EB88DC7529C85357F83F0822E759 /* Sources */,
-				D8D36A92FDFE76F81B3BA40389D3D602 /* Frameworks */,
-				15D6FE1FC64C7CCA5A2585365ECA5A4E /* Resources */,
-				33DA260CA3431E343D639FCA8296D9A8 /* Headers */,
+				C77D6801ACCDE04CC0C2D6CD8DF75849 /* Sources */,
+				FB056C04A77044E77CD02314E7BCA730 /* Frameworks */,
+				97FE3F514C7DE6B6A73D28E9011D4071 /* Resources */,
+				25CD05DD53D0DCD799DE8C635D78BFDB /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B22AD8D8791433B387E992E5449BB13B /* PBXTargetDependency */,
+				9FC28CCEAF1F4C3CEBE566BAA5ADCCE8 /* PBXTargetDependency */,
+				7B931F47E2E4D5D404483E5101E15E8E /* PBXTargetDependency */,
 			);
-			name = ECExtension;
-			productName = ECExtension;
-			productReference = A1ED9CF49DCFE6F5CDB18322881AF258 /* ECExtension.framework */;
+			name = ECUIControls;
+			productName = ECUIControls;
+			productReference = 21A5AB3110040398E7C2DEA3B5970CA9 /* ECUIControls.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -559,10 +566,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F511146DD7F641562C8F5D0F176D88F8 /* ECExtension */,
-				653D6706D0192899C5B97C8885DF7C43 /* ECExtension-ECExtension */,
-				2F875F5EB49FAB9E08B8DFD67844B1FB /* ECUIControls */,
-				A9AFEA4E02BF78141E543A29C1EB9EDC /* ECUIControls-ECUIControls */,
+				7994CEC28488120D817C2AEA03E9F514 /* ECExtension */,
+				61446FEF99818CCA845B37D4870650A2 /* ECExtension-ECExtension */,
+				B4EFFDDABBEAD6BC427789C6642C8014 /* ECUIControls */,
+				ABA0D6EF321502D1313DD76C66E93C13 /* ECUIControls-ECUIControls */,
 				1684686A87280F996AB77FE6B7AAFBCF /* Pods-ECUIControls_Example */,
 				8E36CD4FAE4D8E835D36A12A040E323B /* Pods-ECUIControls_Tests */,
 			);
@@ -570,30 +577,30 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		15D6FE1FC64C7CCA5A2585365ECA5A4E /* Resources */ = {
+		9336BE0354E2E0EC5E0FC85FEF8A2BE7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C58BBD10686FE6F3971D48813F6DF01 /* ECExtension.bundle in Resources */,
+				5F9ABB9120CFDEC2E7E7056D4E56EBFC /* ECExtension.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		453DDCA180917B3926E7FAA2252E17DA /* Resources */ = {
+		97FE3F514C7DE6B6A73D28E9011D4071 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				401C7D434AA5D57EC4C59DDC473F21CF /* ECUIControls.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB86DE0973E1739D3B1D7A7673AF33D2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C92D9BD4ED8F226774D47968048D4114 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D57F7304172D025B53696812EF6134A3 /* ECUIControls.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F441E7DD2D129EAFA73E81D01FEBCC88 /* Resources */ = {
+		E812D2724D6ED92EA5F9D47C57E5F890 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -603,20 +610,10 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		294DDB45CE46DD9DF36CAC40796278DB /* Sources */ = {
+		12D7B977585924CACFD38F1195B7D962 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3FECA124441A8F3A08F6695DD1A92BFC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0D8990CD443A26C38BC986096DE9B295 /* ECDeslider.m in Sources */,
-				E40EED6B22442FE421854CB564BB81F3 /* ECUIControls-dummy.m in Sources */,
-				43D8A73D6612FCD01A9896B4C951080C /* ECVoiceProgressbar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -628,7 +625,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8AA19C3DB3A300FDF685D07FBFD14097 /* Sources */ = {
+		4EE4BE1B5C144187594623860CB6FBD4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -643,62 +640,73 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DB41EB88DC7529C85357F83F0822E759 /* Sources */ = {
+		C77D6801ACCDE04CC0C2D6CD8DF75849 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A18C992FEFB5546C2AC1B118B265654 /* CBUUID+Extend.m in Sources */,
-				31D55A084E4D1B2EAF404698CCCC12F7 /* ECExtension-dummy.m in Sources */,
-				E89615BAD068F79CE3A6C7D8EA871AB5 /* UIColor+Extend.m in Sources */,
-				AEFA0553C2B0C95A8FC9650F0119B2F1 /* UIImage+Extend.m in Sources */,
-				56CD5AE17926699D4021F2D35E2DA4BC /* UIView+Extend.m in Sources */,
+				053FF992601BCABCA3F3EB4F1DA42EB8 /* ECDeslider.m in Sources */,
+				E4C58AA9275DEB81BD792811DA072FC8 /* ECUIControls-dummy.m in Sources */,
+				823E3E71C70A9F3B1803E3543744F9FD /* ECVoiceProgressbar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2F1088E87E0C9C385FB4189A36242B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6170364A7D35DB079AFE12A1DBB172E /* CBUUID+Extend.m in Sources */,
+				7C5AEBAE0FF2FA07A0CAB1154A055ED8 /* ECExtension-dummy.m in Sources */,
+				457A1A08412713A652B39B980F0C3AEF /* NSManagedObjectContext-EasyFetch.m in Sources */,
+				4F4F61A2FDD29A1537D83FDA05CFF6EF /* UIColor+Extend.m in Sources */,
+				8DEF96A32B15D2A92A233EFD2AAE3D8D /* UIImage+Extend.m in Sources */,
+				F1F2DF9E81391039D655F492AE893C96 /* UIView+Extend.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		049AF986E5F7C280BFDF38D59B6B7F3A /* PBXTargetDependency */ = {
+		357BD791417C2D522CE5CA40D9BDD411 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ECUIControls;
+			target = B4EFFDDABBEAD6BC427789C6642C8014 /* ECUIControls */;
+			targetProxy = D67385D3F6B334A09249E1C9E797B010 /* PBXContainerItemProxy */;
+		};
+		48DA14A1D4220B5C147AEA96A6760A6D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ECExtension;
-			target = F511146DD7F641562C8F5D0F176D88F8 /* ECExtension */;
-			targetProxy = 32DFADAF8FE7212104FF39F3B1BE04CB /* PBXContainerItemProxy */;
+			target = 7994CEC28488120D817C2AEA03E9F514 /* ECExtension */;
+			targetProxy = CBFE7FE1369758C88DE0EBA563280763 /* PBXContainerItemProxy */;
 		};
-		2D201A9DB51EAD88F675B086CA3469E3 /* PBXTargetDependency */ = {
+		7B931F47E2E4D5D404483E5101E15E8E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "ECUIControls-ECUIControls";
-			target = A9AFEA4E02BF78141E543A29C1EB9EDC /* ECUIControls-ECUIControls */;
-			targetProxy = 032582D437C3681E1E91E44D9C609466 /* PBXContainerItemProxy */;
+			target = ABA0D6EF321502D1313DD76C66E93C13 /* ECUIControls-ECUIControls */;
+			targetProxy = B062B9F519D3CFC052C5798B97E0A460 /* PBXContainerItemProxy */;
 		};
-		76528B66E4477A3D509B242F754EBC72 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ECUIControls;
-			target = 2F875F5EB49FAB9E08B8DFD67844B1FB /* ECUIControls */;
-			targetProxy = 591274CCAA6A271803CDD79E08F2E533 /* PBXContainerItemProxy */;
-		};
-		8F4C2E9B7FE4971CD6A060B8B69729C1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ECExtension;
-			target = F511146DD7F641562C8F5D0F176D88F8 /* ECExtension */;
-			targetProxy = 915EA142B667A6E2B3DBED4D2D5EB269 /* PBXContainerItemProxy */;
-		};
-		99A4206052B627C1C232FCE4FB6DAF0D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ECUIControls;
-			target = 2F875F5EB49FAB9E08B8DFD67844B1FB /* ECUIControls */;
-			targetProxy = 44EF0C267DC75B7DEB892D1C39715D33 /* PBXContainerItemProxy */;
-		};
-		B22AD8D8791433B387E992E5449BB13B /* PBXTargetDependency */ = {
+		849E2CBE67301FC4A65559C225D4616D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "ECExtension-ECExtension";
-			target = 653D6706D0192899C5B97C8885DF7C43 /* ECExtension-ECExtension */;
-			targetProxy = 6F768192720C555B9855311B9E012368 /* PBXContainerItemProxy */;
+			target = 61446FEF99818CCA845B37D4870650A2 /* ECExtension-ECExtension */;
+			targetProxy = AE9191E78DB741B1391CB54536CC81CF /* PBXContainerItemProxy */;
 		};
-		C52439888B7EDC52B3E4A2E1C7F140E0 /* PBXTargetDependency */ = {
+		9FC28CCEAF1F4C3CEBE566BAA5ADCCE8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ECExtension;
-			target = F511146DD7F641562C8F5D0F176D88F8 /* ECExtension */;
-			targetProxy = 9A52E54B02ECFC5167BDC73AA999917B /* PBXContainerItemProxy */;
+			target = 7994CEC28488120D817C2AEA03E9F514 /* ECExtension */;
+			targetProxy = 8491A6615A89D8D6921F02A68C7AB399 /* PBXContainerItemProxy */;
+		};
+		B5B9EFB76ACCD824AD3DCD114F9071AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ECUIControls;
+			target = B4EFFDDABBEAD6BC427789C6642C8014 /* ECUIControls */;
+			targetProxy = F5071374BA46D1F4733838CFC2CA9073 /* PBXContainerItemProxy */;
+		};
+		CBD8668A9DCE24A247E1F4636F70672C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ECExtension;
+			target = 7994CEC28488120D817C2AEA03E9F514 /* ECExtension */;
+			targetProxy = 31374AD5D490FADD9C4D5114BF6F24E9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -766,33 +774,6 @@
 			};
 			name = Release;
 		};
-		06340EB5A5C01172C35B5B0D4FB4B168 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 18169AC6895DD2BA02911EE3771FE3AC /* ECExtension-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.6;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.6;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ECExtension/ECExtension-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ECExtension/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ECExtension/ECExtension.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = ECExtension;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -829,6 +810,57 @@
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		0D7C447F69D4C5F8CCA4BBF78831BF04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA3561937E779F789A2C3C7F8ADC53B2 /* ECUIControls-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.2;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.2;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ECUIControls/ECUIControls-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ECUIControls/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ECUIControls/ECUIControls.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ECUIControls;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		287E7C3F66ADF404D824661B74A53ECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA3561937E779F789A2C3C7F8ADC53B2 /* ECUIControls-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ECUIControls;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		2FF83066C870AB57977CAE4F3C1A68A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA3561937E779F789A2C3C7F8ADC53B2 /* ECUIControls-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ECUIControls;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -890,92 +922,14 @@
 			};
 			name = Debug;
 		};
-		53C216E0468A2A1C787A06B8B37ADE1A /* Debug */ = {
+		68FDDFA3B8EFC4A5828AE14438E6B51F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13BF1DC000E0AF08A8968F9EC5F63BE0 /* ECUIControls-Private.xcconfig */;
+			baseConfigurationReference = 7BF847BBE8E9546D777CF5BA7D68998A /* ECExtension-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.0;
+				CURRENT_PROJECT_VERSION = 0.2.2;
 				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ECUIControls/ECUIControls-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ECUIControls/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ECUIControls/ECUIControls.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = ECUIControls;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6C4B1EA374641206BA040C4AFBDBCD26 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13BF1DC000E0AF08A8968F9EC5F63BE0 /* ECUIControls-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = ECUIControls;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		7CC9EADFE0037B675806414F5623DD39 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13BF1DC000E0AF08A8968F9EC5F63BE0 /* ECUIControls-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.0;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ECUIControls/ECUIControls-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ECUIControls/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ECUIControls/ECUIControls.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = ECUIControls;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7EB43A100559B7B31A2E2DEA0B62B054 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 18169AC6895DD2BA02911EE3771FE3AC /* ECExtension-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = ECExtension;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		A09474945E0CD8D5CF53D66CE57B0868 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 18169AC6895DD2BA02911EE3771FE3AC /* ECExtension-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.6;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.6;
+				DYLIB_COMPATIBILITY_VERSION = 0.2.2;
 				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -995,9 +949,21 @@
 			};
 			name = Release;
 		};
-		C4867A51200844C2FC315B586620CAF6 /* Release */ = {
+		6FFA6F650C49293480747F606F0C1A32 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 18169AC6895DD2BA02911EE3771FE3AC /* ECExtension-Private.xcconfig */;
+			baseConfigurationReference = 7BF847BBE8E9546D777CF5BA7D68998A /* ECExtension-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ECExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A2D457FB3D8A0A3A08DBB07751DBFCCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BF847BBE8E9546D777CF5BA7D68998A /* ECExtension-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = ECExtension;
@@ -1006,6 +972,33 @@
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
+		};
+		E3A66471C896213181FA69B1EB0F56BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BF847BBE8E9546D777CF5BA7D68998A /* ECExtension-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.2.2;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.2.2;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ECExtension/ECExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ECExtension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ECExtension/ECExtension.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ECExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		F1AD3C5A15F8047B3C145A8572FD771C /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1036,26 +1029,41 @@
 			};
 			name = Release;
 		};
-		F33D13AC86D581840FEEF165A74F6B5A /* Release */ = {
+		F6B560B48B86F54881E00913EA2A160D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13BF1DC000E0AF08A8968F9EC5F63BE0 /* ECUIControls-Private.xcconfig */;
+			baseConfigurationReference = DA3561937E779F789A2C3C7F8ADC53B2 /* ECUIControls-Private.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.2;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.2;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ECUIControls/ECUIControls-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ECUIControls/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ECUIControls/ECUIControls.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = ECUIControls;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2A8A348C15A42118C839B79AC05A6083 /* Build configuration list for PBXNativeTarget "ECUIControls" */ = {
+		11C35F7C9E5882FA68FD5F73431464AB /* Build configuration list for PBXNativeTarget "ECExtension-ECExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				53C216E0468A2A1C787A06B8B37ADE1A /* Debug */,
-				7CC9EADFE0037B675806414F5623DD39 /* Release */,
+				6FFA6F650C49293480747F606F0C1A32 /* Debug */,
+				A2D457FB3D8A0A3A08DBB07751DBFCCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1069,29 +1077,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		361F5FB735D82C661DCF03B638E750C4 /* Build configuration list for PBXNativeTarget "ECExtension-ECExtension" */ = {
+		6732782BB9AA55AD14FEB8B9E74F0787 /* Build configuration list for PBXNativeTarget "ECUIControls-ECUIControls" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7EB43A100559B7B31A2E2DEA0B62B054 /* Debug */,
-				C4867A51200844C2FC315B586620CAF6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5D8292843572EF97CAC22E748B03AC5F /* Build configuration list for PBXNativeTarget "ECExtension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				06340EB5A5C01172C35B5B0D4FB4B168 /* Debug */,
-				A09474945E0CD8D5CF53D66CE57B0868 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		64237539973244382BA06F8699073964 /* Build configuration list for PBXNativeTarget "ECUIControls-ECUIControls" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6C4B1EA374641206BA040C4AFBDBCD26 /* Debug */,
-				F33D13AC86D581840FEEF165A74F6B5A /* Release */,
+				2FF83066C870AB57977CAE4F3C1A68A2 /* Debug */,
+				287E7C3F66ADF404D824661B74A53ECB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1110,6 +1100,24 @@
 			buildConfigurations = (
 				3E890DF6101EC01702BCA3A6142F67B7 /* Debug */,
 				0629980538F83F174C636EABDFF97B95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7BC7E5B40AE34755A70E2334FD97A94 /* Build configuration list for PBXNativeTarget "ECUIControls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6B560B48B86F54881E00913EA2A160D /* Debug */,
+				0D7C447F69D4C5F8CCA4BBF78831BF04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8F90587DEADC040CED5858F68CCC452 /* Build configuration list for PBXNativeTarget "ECExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3A66471C896213181FA69B1EB0F56BD /* Debug */,
+				68FDDFA3B8EFC4A5828AE14438E6B51F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

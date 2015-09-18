@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "054F45EFA8E5151996C806AE"
+               BlueprintIdentifier = "CDD84A9B5A5119331ED3072F"
                BuildableName = "ECUIControls.framework"
                BlueprintName = "ECUIControls"
                ReferencedContainer = "container:Pods.xcodeproj">

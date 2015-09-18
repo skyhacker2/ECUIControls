@@ -2,6 +2,7 @@
 
 #import "CBUUID+Extend.h"
 #import "ECExtension.h"
+#import "NSManagedObjectContext-EasyFetch.h"
 #import "UIColor+Extend.h"
 #import "UIImage+Extend.h"
 #import "UIView+Extend.h"

@@ -1,6 +1,6 @@
 PODS:
-  - ECExtension (0.1.6)
-  - ECUIControls (0.1.0):
+  - ECExtension (0.2.2)
+  - ECUIControls (0.1.2):
     - ECExtension
 
 DEPENDENCIES:
@@ -12,7 +12,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  ECExtension: 80d13eb68b7722859ad1fc397e3fcba57aca1cee
-  ECUIControls: 2221cf071bbc223f84a7dc98fd1d708085117e78
+  ECExtension: 99eb40879e87e0bb1bec382291b87e6deeaffb6c
+  ECUIControls: 5886005bc5d0f86f3174e2dff9c3d8b0646e496e
 
 COCOAPODS: 0.38.2
