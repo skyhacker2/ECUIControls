@@ -11,5 +11,6 @@
 
 #import "ECVoiceProgressbar.h"
 #import "ECDeslider.h"
+#import "ECRangeSlider.h"
 
 #endif

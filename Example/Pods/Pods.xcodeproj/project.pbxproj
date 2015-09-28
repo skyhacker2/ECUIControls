@@ -28,6 +28,8 @@
 		823E3E71C70A9F3B1803E3543744F9FD /* ECVoiceProgressbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 88356E70555182B3B7EC72AE298DC253 /* ECVoiceProgressbar.m */; };
 		8DB54535BAB85023A318589146175A84 /* UIView+Extend.h in Headers */ = {isa = PBXBuildFile; fileRef = C2D95E027D7A7E12A6AC6C06F5D0C53C /* UIView+Extend.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8DEF96A32B15D2A92A233EFD2AAE3D8D /* UIImage+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5EDA2B292EFF87819DCCF4A41B0BDF /* UIImage+Extend.m */; };
+		A5738E241BB9109B003F4174 /* ECRangeSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = A5738E221BB9109B003F4174 /* ECRangeSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5738E251BB9109B003F4174 /* ECRangeSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = A5738E231BB9109B003F4174 /* ECRangeSlider.m */; settings = {ASSET_TAGS = (); }; };
 		B6170364A7D35DB079AFE12A1DBB172E /* CBUUID+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 828AE1F70C7763991766A0882721EF51 /* CBUUID+Extend.m */; };
 		BE030EF0A27735A640F264FAC87505B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52567EA1102D1A8F02146B6B0FF79965 /* Foundation.framework */; };
 		C2ACB84F0047A4516A0E16C7A0F3202B /* NSManagedObjectContext-EasyFetch.h in Headers */ = {isa = PBXBuildFile; fileRef = 210E605489C3632813A6DC4E092254C3 /* NSManagedObjectContext-EasyFetch.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -131,6 +133,8 @@
 		9B5EDA2B292EFF87819DCCF4A41B0BDF /* UIImage+Extend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Extend.m"; path = "Pod/Classes/UIImage+Extend.m"; sourceTree = "<group>"; };
 		9C4FBCE28362ECD63AEEC952F5A116B4 /* ECExtension.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECExtension.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		A52753BBE30DB66D61099F76A054314B /* ECDeslider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ECDeslider.h; sourceTree = "<group>"; };
+		A5738E221BB9109B003F4174 /* ECRangeSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECRangeSlider.h; sourceTree = "<group>"; };
+		A5738E231BB9109B003F4174 /* ECRangeSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECRangeSlider.m; sourceTree = "<group>"; };
 		A76960FD77464A97F777AD723C9FB948 /* Pods-ECUIControls_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ECUIControls_Example-dummy.m"; sourceTree = "<group>"; };
 		AA2E2C8D476C9D1C266615A470990FE0 /* Pods-ECUIControls_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ECUIControls_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		ADA0B575824DE00360633B6D629ABE99 /* ECUIControls.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ECUIControls.h; sourceTree = "<group>"; };
@@ -329,6 +333,8 @@
 				ADA0B575824DE00360633B6D629ABE99 /* ECUIControls.h */,
 				EED409A0AB297E324E1A0927345484E7 /* ECVoiceProgressbar.h */,
 				88356E70555182B3B7EC72AE298DC253 /* ECVoiceProgressbar.m */,
+				A5738E221BB9109B003F4174 /* ECRangeSlider.h */,
+				A5738E231BB9109B003F4174 /* ECRangeSlider.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -397,6 +403,7 @@
 				173175B101D90A9BA2370CFE18582115 /* ECDeslider.h in Headers */,
 				196B789BC5B762E84FC63E7E7480133C /* ECUIControls-umbrella.h in Headers */,
 				4CEB1FB890A06DDA80FAFE4554A9B5F9 /* ECUIControls.h in Headers */,
+				A5738E241BB9109B003F4174 /* ECRangeSlider.h in Headers */,
 				55B3720E912A9429DB81D8293B0D1CA3 /* ECVoiceProgressbar.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -646,6 +653,7 @@
 			files = (
 				053FF992601BCABCA3F3EB4F1DA42EB8 /* ECDeslider.m in Sources */,
 				E4C58AA9275DEB81BD792811DA072FC8 /* ECUIControls-dummy.m in Sources */,
+				A5738E251BB9109B003F4174 /* ECRangeSlider.m in Sources */,
 				823E3E71C70A9F3B1803E3543744F9FD /* ECVoiceProgressbar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

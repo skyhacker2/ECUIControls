@@ -21,6 +21,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		A5738E2B1BB9244E003F4174 /* ECRangeSliderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A5738E2A1BB9244E003F4174 /* ECRangeSliderVC.m */; settings = {ASSET_TAGS = (); }; };
 		BD066BC0E5EEE0CB13D03B43 /* Pods_ECUIControls_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1329D086EC6DB35C8BF788C /* Pods_ECUIControls_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		EDDB877266E3E70F8BD8A93D /* Pods_ECUIControls_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E4D483C4A30D6620DC2E063 /* Pods_ECUIControls_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
@@ -59,6 +60,8 @@
 		6A2EE8DF92E75173EC4F2C56 /* ECUIControls.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ECUIControls.podspec; path = ../ECUIControls.podspec; sourceTree = "<group>"; };
 		74D5780E533ECB7A0518337A /* Pods-ECUIControls_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ECUIControls_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ECUIControls_Example/Pods-ECUIControls_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A5738E291BB9244E003F4174 /* ECRangeSliderVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECRangeSliderVC.h; sourceTree = "<group>"; };
+		A5738E2A1BB9244E003F4174 /* ECRangeSliderVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECRangeSliderVC.m; sourceTree = "<group>"; };
 		B6835D7AFDD84142E300BC76 /* Pods-ECUIControls_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ECUIControls_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ECUIControls_Tests/Pods-ECUIControls_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B85359166A4D9F1E29AED853 /* Pods-ECUIControls_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ECUIControls_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ECUIControls_Tests/Pods-ECUIControls_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BB5654D691351D678DC8FD0E /* Pods-ECUIControls_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ECUIControls_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ECUIControls_Example/Pods-ECUIControls_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -137,6 +140,8 @@
 				6003F5A6195388D20070C39A /* ECViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				A5738E291BB9244E003F4174 /* ECRangeSliderVC.h */,
+				A5738E2A1BB9244E003F4174 /* ECRangeSliderVC.m */,
 			);
 			name = "Example for ECUIControls";
 			path = ECUIControls;
@@ -391,6 +396,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* ECAppDelegate.m in Sources */,
+				A5738E2B1BB9244E003F4174 /* ECRangeSliderVC.m in Sources */,
 				6003F5A7195388D20070C39A /* ECViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
